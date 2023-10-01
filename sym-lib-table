@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "libraries")(type "Legacy")(uri "${KIPRJMOD}/libraries/")(options "")(descr ""))
+  (lib (name "lib")(type "KiCad")(uri "${KIPRJMOD}/lib.kicad_sym")(options "")(descr ""))
+  (lib (name "MoonBoard")(type "KiCad")(uri "${KIPRJMOD}/MoonBoard.kicad_sym")(options "")(descr ""))
+)
