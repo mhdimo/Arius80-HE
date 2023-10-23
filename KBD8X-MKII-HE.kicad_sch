@@ -1614,9 +1614,6 @@
   (junction (at 140.97 74.93) (diameter 0) (color 0 0 0 0)
     (uuid 8ee23ce0-164a-4fd5-af07-750872a31bf2)
   )
-  (junction (at 52.07 53.34) (diameter 0) (color 0 0 0 0)
-    (uuid 982dd875-77d0-40e4-8aac-673552019a73)
-  )
   (junction (at 104.14 79.375) (diameter 0) (color 0 0 0 0)
     (uuid b1351f8c-46eb-4ab5-9124-3312cb482c03)
   )
@@ -1649,6 +1646,9 @@
   )
   (junction (at 248.92 33.655) (diameter 0) (color 0 0 0 0)
     (uuid ec01f881-8e37-4144-a3d7-1e0cb5481da2)
+  )
+  (junction (at 52.07 53.34) (diameter 0) (color 0 0 0 0)
+    (uuid f7564d3a-fd13-4aba-a36d-10264729a814)
   )
   (junction (at 248.92 28.575) (diameter 0) (color 0 0 0 0)
     (uuid fa47c86b-e54d-41bb-9f0e-c45f180d825b)
@@ -1791,10 +1791,6 @@
     (stroke (width 0) (type default))
     (uuid 385d3143-0a2d-4797-8096-7e8c44c49ec9)
   )
-  (wire (pts (xy 50.5714 53.34) (xy 52.07 53.34))
-    (stroke (width 0) (type default))
-    (uuid 3a9b0e41-b657-4a1f-b647-9ee6582de2d4)
-  )
   (wire (pts (xy 165.735 24.765) (xy 162.56 24.765))
     (stroke (width 0) (type default))
     (uuid 3bddd699-1987-4361-8db5-2bbb6f4f2a9c)
@@ -1928,6 +1924,10 @@
     (stroke (width 0) (type default))
     (uuid 77fda38f-92df-440d-9529-07b0b3f1a852)
   )
+  (wire (pts (xy 50.8 53.34) (xy 52.07 53.34))
+    (stroke (width 0) (type default))
+    (uuid 7b95a6e7-eb5f-4fd8-a224-840838fac4aa)
+  )
   (wire (pts (xy 248.92 28.575) (xy 248.92 27.305))
     (stroke (width 0) (type default))
     (uuid 7da910e3-f293-46c8-ac3a-5aec04aa161b)
@@ -1976,7 +1976,7 @@
     (stroke (width 0) (type default))
     (uuid 944480a0-d08c-4803-b5dc-20d8a6989e90)
   )
-  (wire (pts (xy 67.3608 50.8) (xy 70.8406 50.8))
+  (wire (pts (xy 67.31 50.8) (xy 70.8406 50.8))
     (stroke (width 0) (type default))
     (uuid 94aec88f-0de4-4087-965d-1e8504d66362)
   )
@@ -2069,10 +2069,6 @@
     (stroke (width 0) (type default))
     (uuid ceb17b29-adef-457e-a68b-c71036eea5b0)
   )
-  (wire (pts (xy 52.07 53.34) (xy 52.1462 53.34))
-    (stroke (width 0) (type default))
-    (uuid d28caf40-55f4-49aa-847f-e0bce5957d24)
-  )
   (wire (pts (xy 238.76 22.225) (xy 245.11 22.225))
     (stroke (width 0) (type default))
     (uuid d807667d-8f8e-453c-b277-8bd116cfc197)
@@ -2125,6 +2121,10 @@
   (wire (pts (xy 45.085 41.275) (xy 45.085 43.815))
     (stroke (width 0) (type default))
     (uuid f4f6298a-b492-4d38-bc8b-d8d654c77d8e)
+  )
+  (wire (pts (xy 52.07 53.34) (xy 52.1462 53.34))
+    (stroke (width 0) (type default))
+    (uuid f56be1bc-db5e-43bd-93f5-86db33beac45)
   )
   (wire (pts (xy 248.92 28.575) (xy 248.92 33.655))
     (stroke (width 0) (type default))
@@ -2459,8 +2459,8 @@
     (property "Datasheet" "~" (at 136.525 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b8bdc81a-c450-49b3-889d-69ad03e47b3e))
-    (pin "2" (uuid c6c30346-1367-4aea-995a-af33fcfc3986))
+    (pin "1" (uuid efcf0dc2-82dc-4482-8ce2-58657e0266be))
+    (pin "2" (uuid d342bcc3-1514-47ac-aac8-d4e037d1d7d4))
     (instances
       (project "KBD8X-MKII-HE"
         (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
@@ -2602,7 +2602,7 @@
     (property "Datasheet" "" (at 134.62 29.845 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 257b2840-9a6d-455a-a784-0eee023f64e0))
+    (pin "1" (uuid f29152d5-8095-4e44-a238-c3ab5bd5a48d))
     (instances
       (project "KBD8X-MKII-HE"
         (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
@@ -2627,8 +2627,8 @@
     (property "Datasheet" "~" (at 144.145 45.085 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 738d49b2-fe8f-4078-b4f6-9e30a2320866))
-    (pin "2" (uuid 626cc38f-d418-42de-8998-6eace5079ad7))
+    (pin "1" (uuid 6aaad9cd-ba2a-4e56-b69c-eda5e8f95660))
+    (pin "2" (uuid d77c65e7-db93-4f0e-8e89-2925dcd902de))
     (instances
       (project "KBD8X-MKII-HE"
         (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
@@ -3115,8 +3115,8 @@
     (property "Datasheet" "~" (at 136.525 47.625 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b21b80b8-fe93-4248-89cb-c7f4df5a4c79))
-    (pin "2" (uuid ac65bc54-3093-4feb-b365-83749700d8fe))
+    (pin "1" (uuid 5e27bcc1-fbce-4a3f-aa49-b4e4021551b4))
+    (pin "2" (uuid 94382757-54e3-4be5-aa1d-f19ebbb0cd15))
     (instances
       (project "KBD8X-MKII-HE"
         (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
@@ -3433,8 +3433,8 @@
     (property "Datasheet" "~" (at 144.145 26.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8be57240-af22-4562-a4b2-e710efb7c63f))
-    (pin "2" (uuid 7b948a56-5ea8-4e46-8eaa-4f3a84dd3c4e))
+    (pin "1" (uuid eec814ce-0d63-4440-b5e0-0f56e93d9dec))
+    (pin "2" (uuid 3799fcdb-0a40-438a-9228-629658034134))
     (instances
       (project "KBD8X-MKII-HE"
         (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
@@ -3931,7 +3931,7 @@
     (property "Datasheet" "" (at 134.62 42.545 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f2de6059-ec2a-4fb3-b38c-ae8f7906ad95))
+    (pin "1" (uuid 7b784689-4b5b-4276-af08-04775d5493e6))
     (instances
       (project "KBD8X-MKII-HE"
         (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
@@ -3941,19 +3941,19 @@
     )
   )
 
-  (symbol (lib_id "power:+5V") (at 50.5714 53.34 0) (mirror y) (unit 1)
+  (symbol (lib_id "power:+5V") (at 50.8 53.34 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid efc2bd35-5774-408a-b030-17356303ce6f)
-    (property "Reference" "#PWR049" (at 50.5714 57.15 0)
+    (property "Reference" "#PWR049" (at 50.8 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+5V" (at 50.5714 49.53 0)
+    (property "Value" "+5V" (at 50.8 49.53 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 50.5714 53.34 0)
+    (property "Footprint" "" (at 50.8 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 50.5714 53.34 0)
+    (property "Datasheet" "" (at 50.8 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid c2179776-0c99-4646-9d04-c597add91a82))
