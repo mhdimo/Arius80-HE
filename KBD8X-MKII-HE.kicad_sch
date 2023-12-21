@@ -3004,7 +3004,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_02x03_Odd_Even") (at 93.98 55.88 0) (unit 1)
-    (in_bom no) (on_board no) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 82f4a8fa-b077-47f9-adf4-d8a00b813f42)
     (property "Reference" "SWD1" (at 90.805 46.99 0)
       (effects (font (size 1.27 1.27)))
