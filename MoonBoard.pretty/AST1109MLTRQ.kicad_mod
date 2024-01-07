@@ -1,0 +1,91 @@
+(footprint "AST1109MLTRQ" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr smd)
+  (fp_text reference "REF**" (at 0 -5.5 unlocked) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.1)))
+    (tstamp 8860c8e5-1d99-4530-869a-9a4c425d5ef0)
+  )
+  (fp_text value "AST1109MLTRQ" (at 0 1.9 unlocked) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 4699b51d-4385-47b0-8be7-56874aa7befb)
+  )
+  (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 1550957c-4641-4b33-bd0e-b9f03951205b)
+  )
+  (fp_line (start -5.651701 3.745742) (end -5.652 -3.854)
+    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp d66f8be1-3cef-441d-bb1a-61e91a7c24a1))
+  (fp_line (start -4.746453 -4.651157) (end 4.854811 -4.65193)
+    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 3874ca79-cd07-4697-b05e-2df90c3fa420))
+  (fp_line (start 4.745742 4.651701) (end -4.854544 4.651289)
+    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp d570c0f7-1a7c-4e08-8939-d7e161120633))
+  (fp_line (start 5.651968 -3.746383) (end 5.651289 3.854544)
+    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 9cfddfd3-04bb-472f-975b-b29476aca9ac))
+  (fp_arc (start -5.701485 -4.070877) (mid -5.664511 -3.965229) (end -5.652 -3.854)
+    (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp 6f8ee859-ebd3-4611-91d7-ffbeb14960aa))
+  (fp_arc (start -5.701485 -4.070877) (mid -5.59007 -4.655189) (end -4.998712 -4.719454)
+    (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp b70e6eb4-9ab0-422d-aefc-842f59b51fd1))
+  (fp_arc (start -5.651701 3.745742) (mid -5.66909 3.876409) (end -5.72 3.998)
+    (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp c8be47f4-2b34-4889-9428-5300eadf13a9))
+  (fp_arc (start -5.071421 4.700774) (mid -5.655733 4.589359) (end -5.719998 3.998001)
+    (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp 4a966d24-39d1-421d-9e08-1b7ddf5ce9be))
+  (fp_arc (start -5.071421 4.700774) (mid -4.965773 4.6638) (end -4.854544 4.651289)
+    (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp 1cac5038-018f-4f05-9ca4-0c896525d3ba))
+  (fp_arc (start -4.746453 -4.651157) (mid -4.877121 -4.668544) (end -4.998711 -4.719456)
+    (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp 5d42112e-8a14-46df-a4d0-dd8d3766856a))
+  (fp_arc (start 4.745742 4.651701) (mid 4.876409 4.66909) (end 4.998 4.72)
+    (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp f58dede1-ef91-4bd6-ba04-23245d98c789))
+  (fp_arc (start 5.071688 -4.701415) (mid 4.96604 -4.664441) (end 4.854811 -4.65193)
+    (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp 0a0a9631-cab0-4b38-b719-9533f3604ada))
+  (fp_arc (start 5.071688 -4.701415) (mid 5.656 -4.59) (end 5.720265 -3.998642)
+    (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp 4c4f6b2c-cc77-4b84-882a-d34b222ade12))
+  (fp_arc (start 5.651968 -3.746383) (mid 5.669356 -3.87705) (end 5.720267 -3.998641)
+    (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp 697437b0-7394-4fc4-b943-aa9a4421ff17))
+  (fp_arc (start 5.700774 4.071421) (mid 5.589359 4.655733) (end 4.998001 4.719998)
+    (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp 4eb08dbb-25ef-4f43-9470-03b893d12875))
+  (fp_arc (start 5.700774 4.071421) (mid 5.6638 3.965773) (end 5.651289 3.854544)
+    (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp b7e5cd11-5086-4852-aa0c-6feacb79ab3c))
+  (fp_rect (start -8 -5) (end 8 5)
+    (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd") (tstamp e6c0d580-d501-481e-8f84-837f19d61f63))
+  (pad "1" smd rect (at -6.752 0) (size 2.2 2.2) (layers "F.Cu" "F.Mask")
+    (thermal_bridge_angle 45) (tstamp c033a2ed-9f3f-452c-860a-1449446ba7ba))
+  (pad "1" smd rect (at -6.752 0) (size 2.2 2.2) (layers "B.Cu" "B.Mask")
+    (thermal_bridge_angle 45) (tstamp 9e1228bc-093c-405b-b0b3-704a7358e21a))
+  (pad "2" smd rect (at 6.752 0) (size 2.2 2.2) (layers "F.Cu" "F.Mask")
+    (thermal_bridge_angle 45) (tstamp d1269164-c2ae-4858-a800-405f8270483d))
+  (pad "2" smd rect (at 6.752 0) (size 2.2 2.2) (layers "B.Cu" "B.Mask")
+    (thermal_bridge_angle 45) (tstamp c131ee45-b756-4a38-8f72-e44824cdae1b))
+  (group "" (id 6356cb13-4e72-4f3f-a953-836fc957f248)
+    (members
+      5d42112e-8a14-46df-a4d0-dd8d3766856a
+      6f8ee859-ebd3-4611-91d7-ffbeb14960aa
+      b70e6eb4-9ab0-422d-aefc-842f59b51fd1
+    )
+  )
+  (group "" (id 720b3b72-6938-4e7c-9a5b-e6fdfa7c799d)
+    (members
+      4eb08dbb-25ef-4f43-9470-03b893d12875
+      b7e5cd11-5086-4852-aa0c-6feacb79ab3c
+      f58dede1-ef91-4bd6-ba04-23245d98c789
+    )
+  )
+  (group "" (id 93bd3b66-51a6-45aa-a288-71eee2d26686)
+    (members
+      0a0a9631-cab0-4b38-b719-9533f3604ada
+      4c4f6b2c-cc77-4b84-882a-d34b222ade12
+      697437b0-7394-4fc4-b943-aa9a4421ff17
+    )
+  )
+  (group "" (id b23a8457-884c-4184-abd4-cca126838921)
+    (members
+      1cac5038-018f-4f05-9ca4-0c896525d3ba
+      4a966d24-39d1-421d-9e08-1b7ddf5ce9be
+      c8be47f4-2b34-4889-9428-5300eadf13a9
+    )
+  )
+  (model "${KIPRJMOD}/shapes3D/AST1109MLTRQ_MAL.step"
+    (offset (xyz 0 0 0.2))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 180 0))
+  )
+)
