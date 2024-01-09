@@ -1,2 +1,2 @@
-# KBD8X-MKII HE
+# Arius8X-HE
 TKL WKL keyboard using lekker switches
