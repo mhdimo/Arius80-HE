@@ -1,2 +1,2 @@
 # Arius8X-HE
-TKL WKL keyboard using lekker switches
+TKL WKL keyboard using Hall-Effect switches
