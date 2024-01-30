@@ -26,7 +26,9 @@ Keyboard (firmware) features:
 
 ## Thanks to:
 [Rephlex](https://github.com/RephlexZero/) For the HUGE help related to the PCB Design and Firmware.
+
 [Timass60](https://github.com/Timass60) For contributing to the project by doing the USB design.
+
 [Gondolindrim](https://github.com/Gondolindrim) For the advices related to the pcb.
 
 ## Want to help?
