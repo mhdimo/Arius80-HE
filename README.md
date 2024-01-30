@@ -1,6 +1,7 @@
 # Arius8X-HE
-Arius8X-HE is a TenKeyLess Keyboard Hall effect that wants to provide quality and performance
-the only switches compatible with this board are only:
+Arius8X-HE is a TenKeyLess Keyboard Hall effect that wants to provide quality and performance.
+
+The only switches compatible with this board are only:
 - Gateron KS-20 
 - Lekker (L45 or L60, does not matter).
 - Latenpow (the same coming from Looting68).
