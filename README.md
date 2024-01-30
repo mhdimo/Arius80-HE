@@ -11,18 +11,19 @@ The only switches compatible with this board are only:
 Many other switches are compatible with this board as long they do follow the same magnet position as Gateron KS-20 
 
 PCB specifics:
-- 1.6mm pcb thickness
-- Powered by STM32F303CBT6X
-- SLSS49E-3 Hall Sensors
+- 1.6mm pcb thickness.
+- Powered by STM32F303CBT6X.
+- SLSS49E-3 Hall Sensors.
 - CD74HC4067M Multiplexers.
+- Support for PCB stabilizers (clip-in and screw-in)
 
 Keyboard (firmware) features:
-- Support for PCB stabilizers (clip-in and screw-in)
-- Auto Calibration
-- Dynamic Actuation (Aka Rapid Trigger)
-- Continuous Dynamic Actuation (Aka Continuos Rapid trigger)
-- QMK supported
-- VIA Support enabled
+- Static customizable actuation point.
+- Auto Calibration.
+- Dynamic Actuation (Aka Rapid Trigger).
+- Continuous Dynamic Actuation (Aka Continuos Rapid trigger).
+- QMK supported.
+- VIA Support enabled.
 
 
 ## Thanks to:
