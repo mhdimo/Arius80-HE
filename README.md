@@ -31,7 +31,7 @@ Keyboard (firmware) features:
 
 [Timass60](https://github.com/Timass60) For contributing to the project by doing the USB design.
 
-[Gondolindrim](https://github.com/Gondolindrim) For the advices related to the pcb.
+[Gondolindrim](https://github.com/Gondolindrim) For the advices related to the pcb design.
 
 ## Want to help?
 I do accept donation now both on paypal directly and/or ko-fi (i'm less familiar with this one)
