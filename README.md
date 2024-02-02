@@ -33,6 +33,8 @@ Keyboard (firmware) features:
 
 [Gondolindrim](https://github.com/Gondolindrim) For the advices related to the pcb design.
 
+## Credits
+[ai03](https://github.com/ai03-2725/) because I am using the board outlines of the kbd8x-mkII from his repository.
 <!---
 ## Want to help?
 I do accept donation now both on paypal directly and/or ko-fi (i'm less familiar with this one)
