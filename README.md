@@ -1,4 +1,7 @@
 # Arius8X-HE
+
+![New Project(3)](https://github.com/mhdimo/Arius8X-HE/assets/62386208/d465aaa6-fdec-478f-8eaa-1e5b231a7aa5)
+
 Arius8X-HE is a TenKeyLess Keyboard Hall effect that wants to provide quality and performance.
 
 The only switches compatible with this board are only:
