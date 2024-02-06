@@ -1,14 +1,19 @@
 ![New Project(3)](https://github.com/mhdimo/Arius8X-HE/assets/62386208/d465aaa6-fdec-478f-8eaa-1e5b231a7aa5)
+(not an actual official design)
 
 Arius8X-HE is a TenKeyLess Keyboard Hall effect that wants to provide quality and performance.
 
 The only switches compatible with this board are only:
-- Gateron KS-20 
-- Lekker (L45 or L60, does not matter).
-- Latenpow (the same coming from Looting68).
-- Raptor HE
-- Outemu HE
+```  
+  - Gateron KS-20 
+  - Lekker (L45 or L60, does not matter).
+  - Latenpow (the same coming from Looting68).
+  - Raptor HE
+  - Outemu HE
+```
+## Switch list yet not confirmed working.
 
+-------------------------------------------------------------
 Many other switches are compatible with this board as long they do follow the same magnet position as Gateron KS-20 
 
 PCB specifics:
