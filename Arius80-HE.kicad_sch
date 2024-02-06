@@ -541,68 +541,6 @@
         )
       )
     )
-    (symbol "Device:FerriteBead_Small" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "FB" (at 1.905 1.27 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "FerriteBead_Small" (at 1.905 -1.27 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "" (at -1.778 0 90)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "L ferrite bead inductor filter" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Ferrite bead, small symbol" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "Inductor_* L_* *Ferrite*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "FerriteBead_Small_0_1"
-        (polyline
-          (pts
-            (xy 0 -1.27)
-            (xy 0 -0.7874)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0.889)
-            (xy 0 1.2954)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.8288 0.2794)
-            (xy -1.1176 1.4986)
-            (xy 1.8288 -0.2032)
-            (xy 1.1176 -1.4224)
-            (xy -1.8288 0.2794)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "FerriteBead_Small_1_1"
-        (pin passive line (at 0 2.54 270) (length 1.27)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -2.54 90) (length 1.27)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "Device:NetTie_2" (pin_numbers hide) (pin_names (offset 0) hide) (in_bom no) (on_board yes)
       (property "Reference" "NT" (at 0 1.27 0)
         (effects (font (size 1.27 1.27)))
@@ -1887,58 +1825,6 @@
         )
       )
     )
-    (symbol "power:VDDA" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "VDDA" (at 0 3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"VDDA\"" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "VDDA_0_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "VDDA_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "VDDA" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "random-keyboard-parts:PRTR5V0U2X" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 0 3.81 0)
         (effects (font (size 1.524 1.524)))
@@ -1982,23 +1868,20 @@
   (junction (at 75.565 106.68) (diameter 0) (color 0 0 0 0)
     (uuid 0274b747-6674-462b-a774-6c89ad1c72cf)
   )
-  (junction (at 175.895 99.06) (diameter 0) (color 0 0 0 0)
-    (uuid 06329405-2213-492f-8422-608078767221)
-  )
   (junction (at 80.645 26.67) (diameter 0) (color 0 0 0 0)
     (uuid 08ae46af-e2e4-4914-9059-f1281ea07518)
+  )
+  (junction (at 169.545 114.3) (diameter 0) (color 0 0 0 0)
+    (uuid 08d58704-5860-4d5f-a030-504f31d43a6e)
   )
   (junction (at 94.615 146.05) (diameter 0) (color 0 0 0 0)
     (uuid 0a547e75-7134-4a4a-9137-8e65eb64fac3)
   )
+  (junction (at 155.575 100.965) (diameter 0) (color 0 0 0 0)
+    (uuid 0a7d33db-2f45-49b0-ad64-01b0122557f8)
+  )
   (junction (at 204.47 46.99) (diameter 0) (color 0 0 0 0)
     (uuid 0a8c73ad-4ad9-4c09-bd83-80a04543afc8)
-  )
-  (junction (at 154.305 104.775) (diameter 0) (color 0 0 0 0)
-    (uuid 0b4fd3d8-f3d0-4528-befa-9ea7832951e7)
-  )
-  (junction (at 135.255 99.695) (diameter 0) (color 0 0 0 0)
-    (uuid 0e17e29b-358f-4e67-bfce-28e91b5b2e3f)
   )
   (junction (at 215.9 64.77) (diameter 0) (color 0 0 0 0)
     (uuid 11cba51d-3f15-465c-b50e-3c32629de820)
@@ -2009,26 +1892,32 @@
   (junction (at 78.74 111.76) (diameter 0) (color 0 0 0 0)
     (uuid 1af4b240-73c8-4753-99f8-854429a9dc2e)
   )
+  (junction (at 164.465 114.3) (diameter 0) (color 0 0 0 0)
+    (uuid 2294c469-99c6-46c6-a185-ddfb93116b32)
+  )
+  (junction (at 146.05 100.965) (diameter 0) (color 0 0 0 0)
+    (uuid 27742c71-1ec9-4e52-8780-55aeedb8c068)
+  )
+  (junction (at 155.575 106.045) (diameter 0) (color 0 0 0 0)
+    (uuid 34c538d3-f49f-4a5f-88c0-c97c6f6fb264)
+  )
+  (junction (at 161.925 114.3) (diameter 0) (color 0 0 0 0)
+    (uuid 41b437fb-3a08-4347-9cd0-931ee21c1f2d)
+  )
   (junction (at 204.47 57.15) (diameter 0) (color 0 0 0 0)
     (uuid 46d05d98-8901-443a-b890-5a16c29acfa0)
   )
-  (junction (at 154.305 99.695) (diameter 0) (color 0 0 0 0)
-    (uuid 566f19d5-500a-4551-9d47-f85592ef5eca)
-  )
-  (junction (at 135.255 104.775) (diameter 0) (color 0 0 0 0)
-    (uuid 697ffa60-7a09-4850-8643-622b000f0de3)
+  (junction (at 165.1 106.045) (diameter 0) (color 0 0 0 0)
+    (uuid 6ebd1dbc-0b88-4b7d-8d03-ac784d638996)
   )
   (junction (at 104.775 139.7) (diameter 0) (color 0 0 0 0)
     (uuid 70112810-2ad7-4102-83c3-7b3b5fc50a65)
   )
+  (junction (at 175.26 106.045) (diameter 0) (color 0 0 0 0)
+    (uuid 77544972-1f95-4213-8eab-130f40b14cef)
+  )
   (junction (at 106.045 26.67) (diameter 0) (color 0 0 0 0)
     (uuid 81cb876a-b3f6-40d4-b1d2-ece0c7decb5d)
-  )
-  (junction (at 144.78 104.775) (diameter 0) (color 0 0 0 0)
-    (uuid 9d30dd17-045a-4557-a367-016a3d8cd161)
-  )
-  (junction (at 207.645 99.06) (diameter 0) (color 0 0 0 0)
-    (uuid a9347414-fab2-4217-b16e-f448e61179f9)
   )
   (junction (at 83.185 139.7) (diameter 0) (color 0 0 0 0)
     (uuid ad3720fc-903c-4935-ad1e-54ae4e40ca01)
@@ -2036,11 +1925,8 @@
   (junction (at 43.4594 40.4368) (diameter 0) (color 0 0 0 0)
     (uuid b646025f-359b-40f5-86ff-803b141712eb)
   )
-  (junction (at 125.73 99.695) (diameter 0) (color 0 0 0 0)
-    (uuid bde1b428-fed0-4faf-94e6-6c0ac52d97b8)
-  )
-  (junction (at 217.17 99.06) (diameter 0) (color 0 0 0 0)
-    (uuid cecc1639-5f1e-41a3-844f-41e015d3e135)
+  (junction (at 146.05 106.045) (diameter 0) (color 0 0 0 0)
+    (uuid bc88f99a-69a6-4a38-866a-9383d6c005b9)
   )
   (junction (at 167.005 114.3) (diameter 0) (color 0 0 0 0)
     (uuid ceeebda4-7c65-4c29-962c-24f97394dee7)
@@ -2054,29 +1940,20 @@
   (junction (at 52.3494 32.8168) (diameter 0) (color 0 0 0 0)
     (uuid d6771491-90ec-423f-b3cf-9cffaa4736f8)
   )
-  (junction (at 164.465 114.3) (diameter 0) (color 0 0 0 0)
-    (uuid dbde4a40-1a00-49dc-9a12-fb48713d9f4b)
+  (junction (at 165.1 100.965) (diameter 0) (color 0 0 0 0)
+    (uuid da5186e8-64cc-461b-a4f8-8001ecd73c04)
   )
-  (junction (at 172.085 99.06) (diameter 0) (color 0 0 0 0)
-    (uuid dd9a347c-bc39-4eeb-bc7b-81edcee885e3)
-  )
-  (junction (at 144.78 99.695) (diameter 0) (color 0 0 0 0)
-    (uuid ddbf9683-4176-420f-b6ec-89c96635e530)
+  (junction (at 136.525 100.965) (diameter 0) (color 0 0 0 0)
+    (uuid e77df93d-4b36-4f35-93d5-671a47e09905)
   )
   (junction (at 83.185 150.495) (diameter 0) (color 0 0 0 0)
     (uuid f1d460f5-8098-40b9-830c-d9588b416013)
-  )
-  (junction (at 186.055 99.06) (diameter 0) (color 0 0 0 0)
-    (uuid f36d680d-0dc0-4e12-8874-4751755c1c61)
   )
   (junction (at 94.615 150.495) (diameter 0) (color 0 0 0 0)
     (uuid f6aaed62-4403-432d-aeac-ec0aeacb8fc0)
   )
   (junction (at 50.4444 55.0418) (diameter 0) (color 0 0 0 0)
     (uuid f7564d3a-fd13-4aba-a36d-10264729a814)
-  )
-  (junction (at 186.055 104.775) (diameter 0) (color 0 0 0 0)
-    (uuid f8fc1b66-ea6e-471c-90bb-80c2cd6c51da)
   )
 
   (no_connect (at 149.225 139.7) (uuid 0912a8ab-94f1-4b90-a926-7b240a8810e5))
@@ -2168,10 +2045,6 @@
     (stroke (width 0) (type default))
     (uuid 23cfbb6e-77b5-4a95-aac8-f991e66ac091)
   )
-  (wire (pts (xy 164.465 99.695) (xy 164.465 114.3))
-    (stroke (width 0) (type default))
-    (uuid 24014f38-7c65-49b9-983e-abbea5e7794a)
-  )
   (wire (pts (xy 182.245 127) (xy 195.58 127))
     (stroke (width 0) (type default))
     (uuid 27ae4516-2226-49f3-a57e-c01a7d080f8e)
@@ -2201,10 +2074,6 @@
     (stroke (width 0) (type default))
     (uuid 30f70ace-0736-447d-9c5a-40040b701bda)
   )
-  (wire (pts (xy 172.085 99.06) (xy 172.085 114.3))
-    (stroke (width 0) (type default))
-    (uuid 31d5077b-0afb-4bab-b0a6-7e07937b1915)
-  )
   (wire (pts (xy 80.645 24.13) (xy 80.645 26.67))
     (stroke (width 0) (type default))
     (uuid 32d66e19-ec93-4542-85e1-993092870659)
@@ -2213,11 +2082,15 @@
     (stroke (width 0) (type default))
     (uuid 32f62e40-219c-4db6-a851-e17615de122d)
   )
+  (wire (pts (xy 155.575 100.965) (xy 165.1 100.965))
+    (stroke (width 0) (type default))
+    (uuid 33b2189d-99aa-4034-8bff-7b71d3b7f1e5)
+  )
   (wire (pts (xy 149.225 152.4) (xy 142.24 152.4))
     (stroke (width 0) (type default))
     (uuid 33fed477-8de7-427d-923c-f52375bedbe5)
   )
-  (wire (pts (xy 85.09 57.785) (xy 85.09 62.23))
+  (wire (pts (xy 89.535 71.755) (xy 93.98 71.755))
     (stroke (width 0) (type default))
     (uuid 35a34cf8-2b06-47e5-85b6-80928e722772)
   )
@@ -2233,13 +2106,13 @@
     (stroke (width 0) (type default))
     (uuid 3bddd699-1987-4361-8db5-2bbb6f4f2a9c)
   )
-  (wire (pts (xy 186.055 99.06) (xy 193.04 99.06))
-    (stroke (width 0) (type default))
-    (uuid 3be39048-faa9-4688-918c-5430e5494650)
-  )
   (wire (pts (xy 229.87 57.15) (xy 234.315 57.15))
     (stroke (width 0) (type default))
     (uuid 3c25d2ee-418c-41b7-9f9a-3a0013facd0b)
+  )
+  (wire (pts (xy 136.525 106.045) (xy 146.05 106.045))
+    (stroke (width 0) (type default))
+    (uuid 3ce4cfbc-20bf-4706-a80e-b641cdd9a4ec)
   )
   (wire (pts (xy 50.4444 45.5422) (xy 50.4444 52.5018))
     (stroke (width 0) (type default))
@@ -2249,7 +2122,7 @@
     (stroke (width 0) (type default))
     (uuid 426b92f2-3f1d-484e-89b4-325869eea0e7)
   )
-  (wire (pts (xy 103.505 57.785) (xy 103.505 62.23))
+  (wire (pts (xy 89.535 53.34) (xy 93.98 53.34))
     (stroke (width 0) (type default))
     (uuid 47a2a853-3343-40bb-86a4-7261664432fe)
   )
@@ -2260,6 +2133,10 @@
   (wire (pts (xy 164.465 193.04) (xy 167.005 193.04))
     (stroke (width 0) (type default))
     (uuid 50180fd4-728c-4a47-8eb1-1b4c9c1a4979)
+  )
+  (wire (pts (xy 169.545 114.3) (xy 172.085 114.3))
+    (stroke (width 0) (type default))
+    (uuid 50b6e34e-03e0-49c0-a689-52f63b7be842)
   )
   (wire (pts (xy 104.775 143.51) (xy 104.775 139.7))
     (stroke (width 0) (type default))
@@ -2281,7 +2158,11 @@
     (stroke (width 0) (type default))
     (uuid 58c4dc04-941d-4f40-ae58-39b4dd4e28b2)
   )
-  (wire (pts (xy 106.045 48.26) (xy 106.045 62.23))
+  (wire (pts (xy 165.1 100.965) (xy 175.26 100.965))
+    (stroke (width 0) (type default))
+    (uuid 598569e4-a467-44a9-948f-0e00736c91dd)
+  )
+  (wire (pts (xy 80.01 50.8) (xy 93.98 50.8))
     (stroke (width 0) (type default))
     (uuid 59a4be74-62d8-4b4d-bbba-7443b13ff508)
   )
@@ -2290,29 +2171,17 @@
     (uuid 5caef343-abc5-455d-bf65-ec029e0e5898)
   )
 
-  (wire (pts (xy 186.055 99.06) (xy 186.055 99.695))
-    (stroke (width 0) (type default))
-    (uuid 5dc76e9e-6da5-4e8a-aeac-364cd29524f4)
-  )
-  (wire (pts (xy 144.78 104.775) (xy 154.305 104.775))
-    (stroke (width 0) (type default))
-    (uuid 61edc7cf-40c3-49a7-92d2-bd2b5fa5bd6d)
-  )
-  (wire (pts (xy 82.55 48.26) (xy 82.55 62.23))
+  (wire (pts (xy 80.01 74.295) (xy 93.98 74.295))
     (stroke (width 0) (type default))
     (uuid 63811c08-3df7-4071-999f-5c71f0d1c198)
   )
-  (wire (pts (xy 100.33 57.785) (xy 103.505 57.785))
+  (wire (pts (xy 89.535 56.515) (xy 89.535 53.34))
     (stroke (width 0) (type default))
     (uuid 68933b54-1f0c-499b-b1d0-9d6f78ecb7ac)
   )
-  (wire (pts (xy 87.63 57.785) (xy 85.09 57.785))
+  (wire (pts (xy 89.535 69.215) (xy 89.535 71.755))
     (stroke (width 0) (type default))
     (uuid 69a578e4-bb3f-4379-a358-11f78524e987)
-  )
-  (wire (pts (xy 144.78 99.695) (xy 154.305 99.695))
-    (stroke (width 0) (type default))
-    (uuid 6ca94d22-ea60-4efb-9866-23433b9af043)
   )
   (wire (pts (xy 80.645 27.94) (xy 80.645 26.67))
     (stroke (width 0) (type default))
@@ -2321,10 +2190,6 @@
   (wire (pts (xy 56.8452 45.5422) (xy 56.8452 40.4368))
     (stroke (width 0) (type default))
     (uuid 6d8d161a-04da-45a9-8993-4cf5a9a0d9f0)
-  )
-  (wire (pts (xy 175.895 99.06) (xy 186.055 99.06))
-    (stroke (width 0) (type default))
-    (uuid 73025e53-b61b-4954-a34e-1b305994dd4f)
   )
   (wire (pts (xy 81.915 124.46) (xy 149.225 124.46))
     (stroke (width 0) (type default))
@@ -2354,6 +2219,10 @@
     (stroke (width 0) (type default))
     (uuid 77fda38f-92df-440d-9529-07b0b3f1a852)
   )
+  (wire (pts (xy 136.525 100.965) (xy 146.05 100.965))
+    (stroke (width 0) (type default))
+    (uuid 7a5dc348-230b-41b9-a86e-5d4604456aac)
+  )
   (wire (pts (xy 149.225 157.48) (xy 146.05 157.48))
     (stroke (width 0) (type default))
     (uuid 7b3441f3-adbb-43a9-ac1f-523641f29fd2)
@@ -2373,10 +2242,6 @@
   (wire (pts (xy 32.385 113.03) (xy 26.035 113.03))
     (stroke (width 0) (type default))
     (uuid 832990d7-393f-4117-ba96-6bfabb81a0f3)
-  )
-  (wire (pts (xy 217.17 98.425) (xy 217.17 99.06))
-    (stroke (width 0) (type default))
-    (uuid 83e175d2-d4a5-4612-b261-39caddbac2a9)
   )
   (wire (pts (xy 116.205 26.67) (xy 118.999 26.67))
     (stroke (width 0) (type default))
@@ -2402,6 +2267,10 @@
     (stroke (width 0) (type default))
     (uuid 8d395de6-aebe-4cd9-8a4e-7bdbd9407326)
   )
+  (wire (pts (xy 155.575 106.045) (xy 165.1 106.045))
+    (stroke (width 0) (type default))
+    (uuid 8d605ad1-a447-46e1-8eae-55de4b4ce27d)
+  )
   (wire (pts (xy 89.535 133.35) (xy 89.535 146.05))
     (stroke (width 0) (type default))
     (uuid 90b1d34b-cfaa-4030-8677-d2ac6c3dd7a9)
@@ -2418,29 +2287,13 @@
     (stroke (width 0) (type default))
     (uuid 94c4edcc-1dc8-43e0-98d0-bce934f3ef5f)
   )
-  (wire (pts (xy 172.085 99.06) (xy 175.895 99.06))
-    (stroke (width 0) (type default))
-    (uuid 95261ec6-0b07-4510-916f-5d2cdc6a9160)
-  )
   (wire (pts (xy 94.615 150.495) (xy 104.775 150.495))
     (stroke (width 0) (type default))
     (uuid 96129dec-1a93-401f-b690-a727066e5ecf)
   )
-  (wire (pts (xy 207.645 99.06) (xy 217.17 99.06))
-    (stroke (width 0) (type default))
-    (uuid 99f94118-19ad-42b8-9212-4b0514b22832)
-  )
   (wire (pts (xy 182.245 124.46) (xy 195.58 124.46))
     (stroke (width 0) (type default))
     (uuid 9a722b26-4d21-4316-bc7d-a3b7310b5ca9)
-  )
-  (wire (pts (xy 217.17 99.06) (xy 217.17 99.695))
-    (stroke (width 0) (type default))
-    (uuid 9b045974-d49c-45b4-b159-5fffc6775f2f)
-  )
-  (wire (pts (xy 125.73 99.695) (xy 135.255 99.695))
-    (stroke (width 0) (type default))
-    (uuid 9d9e29d3-15ab-4f9b-b141-bb749394f29f)
   )
   (wire (pts (xy 149.225 147.32) (xy 142.24 147.32))
     (stroke (width 0) (type default))
@@ -2450,14 +2303,6 @@
     (stroke (width 0) (type default))
     (uuid a02f5453-b7fd-4d20-84b4-4abaf740f9d3)
   )
-  (wire (pts (xy 198.12 99.06) (xy 207.645 99.06))
-    (stroke (width 0) (type default))
-    (uuid a18a977c-0194-4875-b231-652cbe25714c)
-  )
-  (wire (pts (xy 154.305 99.695) (xy 164.465 99.695))
-    (stroke (width 0) (type default))
-    (uuid a4921f9d-e14b-40a6-a903-d5cca2f81414)
-  )
   (bus (pts (xy 143.51 24.765) (xy 143.51 27.305))
     (stroke (width 0) (type default))
     (uuid a9d0b9b1-f736-4f6d-8913-d5466c66c844)
@@ -2466,14 +2311,6 @@
   (wire (pts (xy 182.245 134.62) (xy 195.58 134.62))
     (stroke (width 0) (type default))
     (uuid aa0a2085-3a94-4b53-84f3-7ba0a67653f1)
-  )
-  (wire (pts (xy 135.255 104.775) (xy 144.78 104.775))
-    (stroke (width 0) (type default))
-    (uuid ad847da3-ce9f-47f9-a1ce-d8bb36331ee1)
-  )
-  (wire (pts (xy 207.645 99.06) (xy 207.645 99.695))
-    (stroke (width 0) (type default))
-    (uuid af03d3b9-93f8-4a18-9990-1ee32d9e07f8)
   )
   (wire (pts (xy 215.9 64.77) (xy 218.44 64.77))
     (stroke (width 0) (type default))
@@ -2507,13 +2344,13 @@
     (stroke (width 0) (type default))
     (uuid bc1072bc-6d1b-4a3d-b994-91b54776733c)
   )
+  (wire (pts (xy 165.1 106.045) (xy 175.26 106.045))
+    (stroke (width 0) (type default))
+    (uuid be7c3e56-22e5-4bda-ae48-42777ec5dee2)
+  )
   (wire (pts (xy 66.04 99.06) (xy 78.74 99.06))
     (stroke (width 0) (type default))
     (uuid bf4658ce-3609-4621-a361-4a5a5db1a859)
-  )
-  (wire (pts (xy 175.895 104.775) (xy 186.055 104.775))
-    (stroke (width 0) (type default))
-    (uuid c2cc20f1-e3f2-4771-b909-99983c01c405)
   )
   (wire (pts (xy 112.395 132.08) (xy 149.225 132.08))
     (stroke (width 0) (type default))
@@ -2535,13 +2372,13 @@
     (stroke (width 0) (type default))
     (uuid cbab4885-fade-4e60-937e-293d9e47924d)
   )
-  (wire (pts (xy 175.895 99.06) (xy 175.895 99.695))
+  (wire (pts (xy 146.05 106.045) (xy 155.575 106.045))
     (stroke (width 0) (type default))
-    (uuid cd3d1689-39c7-450b-b8f3-23d3589cdbd0)
+    (uuid d409720e-f72e-4e69-834a-f253c9ed504d)
   )
-  (wire (pts (xy 135.255 99.695) (xy 144.78 99.695))
+  (wire (pts (xy 146.05 100.965) (xy 155.575 100.965))
     (stroke (width 0) (type default))
-    (uuid ce6733d9-2214-4afe-816a-0929d71b8bfa)
+    (uuid d8a7d2bf-bbdd-4963-8f16-7bb8cd6c82c8)
   )
   (wire (pts (xy 222.25 36.195) (xy 236.855 36.195))
     (stroke (width 0) (type default))
@@ -2551,13 +2388,17 @@
     (stroke (width 0) (type default))
     (uuid e2857947-5bcf-4c3a-bfd9-b819ae54d1d7)
   )
+  (wire (pts (xy 161.925 114.3) (xy 164.465 114.3))
+    (stroke (width 0) (type default))
+    (uuid e50f37ad-6b56-4724-970c-ddcb19ebf825)
+  )
   (wire (pts (xy 73.025 111.76) (xy 78.74 111.76))
     (stroke (width 0) (type default))
     (uuid e53283b8-ad4b-4d4a-a2ca-b602227667bc)
   )
-  (wire (pts (xy 125.73 104.775) (xy 135.255 104.775))
+  (wire (pts (xy 159.385 114.3) (xy 161.925 114.3))
     (stroke (width 0) (type default))
-    (uuid e65d869c-8d48-4249-b4b2-81fe577adffe)
+    (uuid e742081b-6da2-4ade-a9ef-affa6b86f63b)
   )
   (bus (pts (xy 143.51 24.765) (xy 145.415 24.765))
     (stroke (width 0) (type default))
@@ -2642,10 +2483,6 @@
     (effects (font (size 2 2)) (justify left bottom))
     (uuid 252d240e-9431-41fa-8909-e0a8189f9aeb)
   )
-  (text "Analog operating voltage (VDDA) supply" (at 172.085 90.805 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 4c462c02-7c13-4d70-a86c-c461c9e361ef)
-  )
   (text "SWD Connector" (at 194.31 16.51 0)
     (effects (font (size 2 2)) (justify left bottom))
     (uuid 593514f2-8659-4680-adff-3c6e12169735)
@@ -2727,8 +2564,8 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 605d6d64-375c-4c04-8bf6-0e6ac0f08902)
   )
-  (label "BOOT0" (at 82.55 48.26 270) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
+  (label "BOOT0" (at 80.01 74.295 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6248b345-2020-4090-9ccc-c4be88a7cf44)
   )
   (label "ADC123_IN1" (at 195.58 134.62 180) (fields_autoplaced)
@@ -2787,8 +2624,8 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d85cb678-d827-400a-bf7f-1d5bca35d264)
   )
-  (label "~{RESET}" (at 106.045 48.26 270) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
+  (label "~{RESET}" (at 80.01 50.8 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid dbdd4fec-ad76-4360-a341-68580b7b0d8a)
   )
   (label "out_esr" (at 106.045 35.56 0) (fields_autoplaced)
@@ -2915,7 +2752,7 @@
           (reference "R6") (unit 1)
         )
       )
-      (project "Arius8X-HE"
+      (project "Arius80-HE"
         (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
           (reference "R2") (unit 1)
         )
@@ -2940,7 +2777,7 @@
     )
     (pin "1" (uuid f6943489-a7e6-44c3-b6e8-62d972f54a84))
     (instances
-      (project "Arius8X-HE"
+      (project "Arius80-HE"
         (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
           (reference "#PWR0398") (unit 1)
         )
@@ -2965,7 +2802,7 @@
     )
     (pin "1" (uuid adc612d0-f111-483a-b310-2ea4da666c3e))
     (instances
-      (project "Arius8X-HE"
+      (project "Arius80-HE"
         (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
           (reference "#PWR0397") (unit 1)
         )
@@ -2973,27 +2810,27 @@
     )
   )
 
-  (symbol (lib_id "Device:FerriteBead_Small") (at 195.58 99.06 270) (unit 1)
+  (symbol (lib_id "Device:C_Small") (at 146.05 103.505 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 1ae8078a-af53-4601-b671-1df9f7721d17)
-    (property "Reference" "FB1" (at 195.6181 92.075 90)
-      (effects (font (size 1.27 1.27)))
+    (uuid 1474327b-c2a5-4395-85b7-3c36d9d4b79e)
+    (property "Reference" "C6" (at 148.59 102.2413 0)
+      (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "120R @ 100MHz" (at 195.6181 94.615 90)
-      (effects (font (size 1.27 1.27)))
+    (property "Value" "100n" (at 148.59 104.7813 0)
+      (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Inductor_SMD:L_0805_2012Metric" (at 195.58 97.282 90)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 146.05 103.505 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 195.58 99.06 0)
+    (property "Datasheet" "~" (at 146.05 103.505 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 18de24c7-9d07-49c2-b2e9-0814d7d9ce7c))
-    (pin "2" (uuid 3cba76eb-15fd-4d37-b1f2-b4f0eba08cdd))
+    (pin "1" (uuid ed232abd-046d-49b4-8593-e8e98226e4bf))
+    (pin "2" (uuid d18e5cb4-1632-4c28-a01d-5e4ca39dac49))
     (instances
-      (project "Arius8X-HE"
+      (project "Arius80-HE"
         (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
-          (reference "FB1") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -3029,7 +2866,7 @@
           (reference "U3") (unit 1)
         )
       )
-      (project "Arius8X-HE"
+      (project "Arius80-HE"
         (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
           (reference "U9") (unit 1)
         )
@@ -3037,24 +2874,24 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 100.33 57.785 270) (unit 1)
+  (symbol (lib_id "power:GND") (at 89.535 56.515 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1d2c13bb-6624-4fee-a75a-c81e7dae750c)
-    (property "Reference" "#PWR0393" (at 93.98 57.785 0)
+    (property "Reference" "#PWR0393" (at 89.535 62.865 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 95.885 57.785 0)
+    (property "Value" "GND" (at 89.535 60.96 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 100.33 57.785 0)
+    (property "Footprint" "" (at 89.535 56.515 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 100.33 57.785 0)
+    (property "Datasheet" "" (at 89.535 56.515 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid f29152d5-8095-4e44-a238-c3ab5bd5a48d))
     (instances
-      (project "Arius8X-HE"
+      (project "Arius80-HE"
         (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
           (reference "#PWR0393") (unit 1)
         )
@@ -3062,25 +2899,25 @@
     )
   )
 
-  (symbol (lib_id "Connector:Conn_01x02_Pin") (at 85.09 67.31 270) (mirror x) (unit 1)
+  (symbol (lib_id "Connector:Conn_01x02_Pin") (at 99.06 71.755 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 227a158c-47f8-4c27-8438-03107d1f4f20)
-    (property "Reference" "J3" (at 90.17 66.675 0)
+    (property "Reference" "J3" (at 98.425 66.675 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "Conn_01x02_Pin" (at 87.63 66.675 0)
+    (property "Value" "Conn_01x02_Pin" (at 98.425 69.215 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (at 85.09 67.31 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (at 99.06 71.755 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 85.09 67.31 0)
+    (property "Datasheet" "~" (at 99.06 71.755 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 6aaad9cd-ba2a-4e56-b69c-eda5e8f95660))
     (pin "2" (uuid d77c65e7-db93-4f0e-8e89-2925dcd902de))
     (instances
-      (project "Arius8X-HE"
+      (project "Arius80-HE"
         (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
           (reference "J3") (unit 1)
         )
@@ -3105,7 +2942,7 @@
     )
     (pin "1" (uuid 3c945727-902e-49a9-8193-5cad0415a2be))
     (instances
-      (project "Arius8X-HE"
+      (project "Arius80-HE"
         (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
           (reference "#PWR0392") (unit 1)
         )
@@ -3130,7 +2967,7 @@
     )
     (pin "1" (uuid 21913006-cdd4-40f0-92cc-4af7626e692a))
     (instances
-      (project "Arius8X-HE"
+      (project "Arius80-HE"
         (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
           (reference "#PWR02") (unit 1)
         )
@@ -3167,7 +3004,7 @@
           (reference "R2") (unit 1)
         )
       )
-      (project "Arius8X-HE"
+      (project "Arius80-HE"
         (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
           (reference "R1") (unit 1)
         )
@@ -3197,9 +3034,34 @@
           (reference "#PWR0106") (unit 1)
         )
       )
-      (project "Arius8X-HE"
+      (project "Arius80-HE"
         (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
           (reference "#PWR07") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+3V3") (at 136.525 100.965 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 498d8fd6-2dde-41fe-ba01-a6541cd8ae50)
+    (property "Reference" "#PWR04" (at 136.525 104.775 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3V3" (at 136.525 96.52 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 136.525 100.965 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 136.525 100.965 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid bf90c460-04de-450a-b2ff-d68a1bf52655))
+    (instances
+      (project "Arius80-HE"
+        (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -3223,7 +3085,7 @@
     (pin "1" (uuid b093094d-4163-4527-9ade-ffa5bc865158))
     (pin "2" (uuid 5f03e81e-ce62-441a-a408-f18f6097b451))
     (instances
-      (project "Arius8X-HE"
+      (project "Arius80-HE"
         (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
           (reference "C1") (unit 1)
         )
@@ -3248,7 +3110,7 @@
     )
     (pin "1" (uuid e146554f-eacc-4827-9820-031d3b054ce1))
     (instances
-      (project "Arius8X-HE"
+      (project "Arius80-HE"
         (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
           (reference "#PWR0400") (unit 1)
         )
@@ -3320,7 +3182,7 @@
     (pin "8" (uuid 7378f8fa-bf5e-436a-8099-e65b4d734eb7))
     (pin "9" (uuid 2ea4edd5-90f0-4575-8400-28e5407094c4))
     (instances
-      (project "Arius8X-HE"
+      (project "Arius80-HE"
         (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
           (reference "U2") (unit 1)
         )
@@ -3328,26 +3190,26 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 186.055 104.775 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 175.26 106.045 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 67d1a080-c79d-4713-9f5a-16873e2a50f9)
-    (property "Reference" "#PWR014" (at 186.055 111.125 0)
+    (uuid 6aa3d127-2930-4ced-b5c2-92552c7a4196)
+    (property "Reference" "#PWR05" (at 175.26 112.395 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 186.055 109.855 0)
+    (property "Value" "GND" (at 175.26 111.125 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 186.055 104.775 0)
+    (property "Footprint" "" (at 175.26 106.045 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 186.055 104.775 0)
+    (property "Datasheet" "" (at 175.26 106.045 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2fc58ff0-dbef-43ed-9e51-5a86907b3136))
+    (pin "1" (uuid ef38147c-6df8-45e6-996c-ce517843d433))
     (instances
-      (project "Arius8X-HE"
+      (project "Arius80-HE"
         (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -3370,35 +3232,9 @@
     )
     (pin "1" (uuid 5ec51cfb-ad94-46c4-b1fb-78673f96f154))
     (instances
-      (project "Arius8X-HE"
+      (project "Arius80-HE"
         (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
           (reference "#PWR017") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R_Small") (at 217.17 95.885 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 6f955009-3553-4528-95b3-0bef6596f1d6)
-    (property "Reference" "R97" (at 219.71 94.615 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "1k" (at 219.71 97.155 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 217.17 95.885 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 217.17 95.885 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d9f4291a-aefe-4d77-bf60-9ba8f1e7ab2d))
-    (pin "2" (uuid e6a737fa-d64e-4f15-be8f-f62505bdd118))
-    (instances
-      (project "Arius8X-HE"
-        (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
-          (reference "R97") (unit 1)
         )
       )
     )
@@ -3422,7 +3258,7 @@
     (pin "1" (uuid 225ae528-e465-4791-aff3-7318599aa46d))
     (pin "2" (uuid 6bf2f8de-7e3d-4a37-aaa7-a203c69f7fa0))
     (instances
-      (project "Arius8X-HE"
+      (project "Arius80-HE"
         (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
           (reference "C2") (unit 1)
         )
@@ -3430,52 +3266,27 @@
     )
   )
 
-  (symbol (lib_id "Device:C_Small") (at 154.305 102.235 0) (unit 1)
+  (symbol (lib_id "Device:C_Small") (at 136.525 103.505 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 78928970-b00d-4c55-8fb0-2e1015634f0e)
-    (property "Reference" "C8" (at 156.845 100.9713 0)
+    (uuid 7a3ba713-b988-47f8-b4dc-9bd118f2689f)
+    (property "Reference" "C5" (at 139.065 102.2413 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100n" (at 156.845 103.5113 0)
+    (property "Value" "4u7" (at 139.065 104.7813 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 154.305 102.235 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 136.525 103.505 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 154.305 102.235 0)
+    (property "Datasheet" "~" (at 136.525 103.505 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 09f0b82a-503c-4cb9-904c-c59f4b51933b))
-    (pin "2" (uuid e47f8daf-56fb-4e13-92c8-734b86ef9dfc))
+    (pin "1" (uuid 3a093651-3784-4015-b5af-76f3b9d6182b))
+    (pin "2" (uuid 9923ae30-5883-4528-a151-18176b675a81))
     (instances
-      (project "Arius8X-HE"
+      (project "Arius80-HE"
         (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
-          (reference "C8") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 154.305 104.775 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 7acb36e9-ac1d-4f17-bb84-8e1db979330f)
-    (property "Reference" "#PWR08" (at 154.305 111.125 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 154.305 109.855 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 154.305 104.775 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 154.305 104.775 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 40328151-1ea3-4c88-b543-ce823fa57319))
-    (instances
-      (project "Arius8X-HE"
-        (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
-          (reference "#PWR08") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -3499,34 +3310,9 @@
     (pin "1" (uuid c32d2028-81a7-4a0d-b561-78709b05d31e))
     (pin "2" (uuid 186cf8e7-da6f-49f3-9570-ef116cf34508))
     (instances
-      (project "Arius8X-HE"
+      (project "Arius80-HE"
         (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
           (reference "R102") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+3V3") (at 217.17 93.345 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 82a8aedd-611f-426a-9c85-2e86aeff4e36)
-    (property "Reference" "#PWR04" (at 217.17 97.155 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3V3" (at 217.17 88.9 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 217.17 93.345 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 217.17 93.345 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 8e20d6f0-60ff-4e5b-9eb8-1b226cf35532))
-    (instances
-      (project "Arius8X-HE"
-        (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
-          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -3554,35 +3340,9 @@
     (pin "5" (uuid 79999789-a5ef-4b5d-924d-6a228cb4bf81))
     (pin "6" (uuid d04ab3e1-af39-4af3-8ce3-e07ba079f7bb))
     (instances
-      (project "Arius8X-HE"
+      (project "Arius80-HE"
         (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
           (reference "SWD1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C_Small") (at 175.895 102.235 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 85feae67-ef06-4e08-bdb4-6a46b404d940)
-    (property "Reference" "C9" (at 178.435 100.9713 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "100n" (at 178.435 103.5113 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 175.895 102.235 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 175.895 102.235 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 50f1b27e-ef80-4b1a-943d-84edf24c6603))
-    (pin "2" (uuid 1b96e469-f1d7-4221-bdce-20cf23ba3f74))
-    (instances
-      (project "Arius8X-HE"
-        (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
-          (reference "C9") (unit 1)
         )
       )
     )
@@ -3607,35 +3367,9 @@
     (pin "2" (uuid e0b18181-b529-4d8e-99dc-cfe96ae69f51))
     (pin "3" (uuid 9ed66231-c1a5-4b5d-8785-e5f0c6a9d43c))
     (instances
-      (project "Arius8X-HE"
+      (project "Arius80-HE"
         (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
           (reference "U10") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C_Small") (at 186.055 102.235 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 930e9a78-16ba-47c6-869f-4366b9833c0c)
-    (property "Reference" "C10" (at 189.23 100.9713 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "1u" (at 189.23 103.5113 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 186.055 102.235 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 186.055 102.235 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid dfe2f15b-80af-4199-b4e2-4ba371024276))
-    (pin "2" (uuid 72c3a4b8-a0a9-4480-bf67-0209b03c2f96))
-    (instances
-      (project "Arius8X-HE"
-        (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
-          (reference "C10") (unit 1)
         )
       )
     )
@@ -3663,7 +3397,7 @@
           (reference "#PWR036") (unit 1)
         )
       )
-      (project "Arius8X-HE"
+      (project "Arius80-HE"
         (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
           (reference "#PWR010") (unit 1)
         )
@@ -3693,7 +3427,7 @@
           (reference "#PWR033") (unit 1)
         )
       )
-      (project "Arius8X-HE"
+      (project "Arius80-HE"
         (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
           (reference "#PWR01") (unit 1)
         )
@@ -3721,7 +3455,7 @@
     (pin "3" (uuid f7b16b77-1392-470e-a74c-deefe4ca41f1))
     (pin "4" (uuid 34c96146-0877-476f-a8a9-8db568fb227b))
     (instances
-      (project "Arius8X-HE"
+      (project "Arius80-HE"
         (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
           (reference "Y1") (unit 1)
         )
@@ -3747,7 +3481,7 @@
     (pin "1" (uuid d6a82ca9-f950-4f49-9b78-a54ef1454e6c))
     (pin "2" (uuid 183f367b-859a-4a94-a8fb-3cda6b703db4))
     (instances
-      (project "Arius8X-HE"
+      (project "Arius80-HE"
         (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
           (reference "R103") (unit 1)
         )
@@ -3773,7 +3507,7 @@
     (pin "1" (uuid 91e11361-97af-404e-94de-75f74777f8d6))
     (pin "2" (uuid 7aa50d37-8fdb-4d8e-a0ac-5bc2cde062e1))
     (instances
-      (project "Arius8X-HE"
+      (project "Arius80-HE"
         (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
           (reference "C3") (unit 1)
         )
@@ -3781,52 +3515,27 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 207.645 104.775 0) (unit 1)
+  (symbol (lib_id "Device:C_Small") (at 165.1 103.505 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid a4a57a90-7094-4e83-9907-f88ef911e28d)
-    (property "Reference" "#PWR015" (at 207.645 111.125 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 207.645 109.855 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 207.645 104.775 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 207.645 104.775 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 72ff7d92-142f-46d9-aa49-d589a4221912))
-    (instances
-      (project "Arius8X-HE"
-        (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
-          (reference "#PWR015") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C_Small") (at 144.78 102.235 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid a4fee74f-0b8a-4494-954a-db34912ba852)
-    (property "Reference" "C7" (at 147.32 100.9713 0)
+    (uuid a63e21b8-da5b-4c8c-971b-946ccbdfe0ff)
+    (property "Reference" "C8" (at 167.64 102.2413 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100n" (at 147.32 103.5113 0)
+    (property "Value" "100n" (at 167.64 104.7813 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 144.78 102.235 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 165.1 103.505 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 144.78 102.235 0)
+    (property "Datasheet" "~" (at 165.1 103.505 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 125d6a57-da08-43cb-8de7-b2d2b8472a8e))
-    (pin "2" (uuid 46436b9c-3e1d-46c1-a6be-304365207d1e))
+    (pin "1" (uuid eeb35929-8875-4102-965e-9f47d6277085))
+    (pin "2" (uuid 8454c107-c6f5-406c-be51-cb30ba162563))
     (instances
-      (project "Arius8X-HE"
+      (project "Arius80-HE"
         (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
-          (reference "C7") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
     )
@@ -3854,7 +3563,7 @@
           (reference "#PWR049") (unit 1)
         )
       )
-      (project "Arius8X-HE"
+      (project "Arius80-HE"
         (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
           (reference "#PWR03") (unit 1)
         )
@@ -3862,49 +3571,24 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 217.17 104.775 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid ab89d090-ef17-4c5d-9e83-70ee6898714d)
-    (property "Reference" "#PWR016" (at 217.17 111.125 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 217.17 109.855 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 217.17 104.775 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 217.17 104.775 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c3a52ecc-7603-49d3-b0a4-1f18340b743f))
-    (instances
-      (project "Arius8X-HE"
-        (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
-          (reference "#PWR016") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+3V3") (at 161.925 114.3 0) (unit 1)
+  (symbol (lib_id "power:+3V3") (at 159.385 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ae6533a3-ce13-4ff9-9bd8-a56d60eba825)
-    (property "Reference" "#PWR018" (at 161.925 118.11 0)
+    (property "Reference" "#PWR018" (at 159.385 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+3V3" (at 161.925 109.855 0)
+    (property "Value" "+3V3" (at 159.385 109.855 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 161.925 114.3 0)
+    (property "Footprint" "" (at 159.385 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 161.925 114.3 0)
+    (property "Datasheet" "" (at 159.385 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 23f97990-f60c-45a8-bf7e-f9b475c063d0))
     (instances
-      (project "Arius8X-HE"
+      (project "Arius80-HE"
         (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
           (reference "#PWR018") (unit 1)
         )
@@ -3930,7 +3614,7 @@
     (pin "1" (uuid 65f3a57f-a896-41e4-8b91-2081e70f4790))
     (pin "2" (uuid c69b4f6d-7644-470c-a50c-7bf47e4897d0))
     (instances
-      (project "Arius8X-HE"
+      (project "Arius80-HE"
         (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
           (reference "C4") (unit 1)
         )
@@ -3955,7 +3639,7 @@
     )
     (pin "1" (uuid 92f410f0-f97a-48a5-a194-7c040096282c))
     (instances
-      (project "Arius8X-HE"
+      (project "Arius80-HE"
         (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
           (reference "#PWR020") (unit 1)
         )
@@ -3980,7 +3664,7 @@
     )
     (pin "1" (uuid 8cabcdec-86f3-45d3-b21d-0691a0f146e3))
     (instances
-      (project "Arius8X-HE"
+      (project "Arius80-HE"
         (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
           (reference "#PWR0401") (unit 1)
         )
@@ -3988,25 +3672,25 @@
     )
   )
 
-  (symbol (lib_id "Connector:Conn_01x02_Pin") (at 103.505 67.31 90) (unit 1)
+  (symbol (lib_id "Connector:Conn_01x02_Pin") (at 99.06 53.34 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c08f95e8-aa99-4de9-a245-6b5ddb3a98e3)
-    (property "Reference" "J2" (at 98.425 66.675 0)
+    (property "Reference" "J2" (at 98.425 58.42 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "Conn_01x02_Pin" (at 100.965 66.675 0)
+    (property "Value" "Conn_01x02_Pin" (at 98.425 55.88 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (at 103.505 67.31 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (at 99.06 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 103.505 67.31 0)
+    (property "Datasheet" "~" (at 99.06 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid eec814ce-0d63-4440-b5e0-0f56e93d9dec))
     (pin "2" (uuid 3799fcdb-0a40-438a-9228-629658034134))
     (instances
-      (project "Arius8X-HE"
+      (project "Arius80-HE"
         (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
           (reference "J2") (unit 1)
         )
@@ -4058,35 +3742,9 @@
           (reference "J3") (unit 1)
         )
       )
-      (project "Arius8X-HE"
+      (project "Arius80-HE"
         (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
           (reference "J1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C_Small") (at 135.255 102.235 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid c399e04b-c274-4a7c-90bd-e8d674406303)
-    (property "Reference" "C6" (at 137.795 100.9713 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "100n" (at 137.795 103.5113 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 135.255 102.235 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 135.255 102.235 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid e11743b5-65fa-43dc-9e80-19e25b9077fe))
-    (pin "2" (uuid 3198510e-31e5-45e9-aff3-5e877eb127f5))
-    (instances
-      (project "Arius8X-HE"
-        (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
-          (reference "C6") (unit 1)
         )
       )
     )
@@ -4114,7 +3772,7 @@
           (reference "#PWR0101") (unit 1)
         )
       )
-      (project "Arius8X-HE"
+      (project "Arius80-HE"
         (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
           (reference "#PWR09") (unit 1)
         )
@@ -4140,7 +3798,7 @@
     (pin "1" (uuid 7500b645-a2a8-4896-995a-176c7bea31eb))
     (pin "2" (uuid 1b6571b9-ba7a-479d-a5af-4b1ff265d76a))
     (instances
-      (project "Arius8X-HE"
+      (project "Arius80-HE"
         (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
           (reference "SW1") (unit 1)
         )
@@ -4165,7 +3823,7 @@
     )
     (pin "1" (uuid 64c818a5-688f-4c91-b9b5-59450a9fc311))
     (instances
-      (project "Arius8X-HE"
+      (project "Arius80-HE"
         (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
           (reference "#PWR0399") (unit 1)
         )
@@ -4191,7 +3849,7 @@
     (pin "1" (uuid 448bd350-414b-4094-a556-86f98da04442))
     (pin "2" (uuid 249567b7-1015-44b0-adb4-3a2d2a145984))
     (instances
-      (project "Arius8X-HE"
+      (project "Arius80-HE"
         (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
           (reference "R105") (unit 1)
         )
@@ -4221,7 +3879,7 @@
           (reference "#PWR036") (unit 1)
         )
       )
-      (project "Arius8X-HE"
+      (project "Arius80-HE"
         (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
           (reference "#PWR0396") (unit 1)
         )
@@ -4272,7 +3930,7 @@
           (reference "U5") (unit 1)
         )
       )
-      (project "Arius8X-HE"
+      (project "Arius80-HE"
         (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
           (reference "U1") (unit 1)
         )
@@ -4280,32 +3938,6 @@
       (project "UDB"
         (path "/c4c12ac1-bf97-4e49-b99b-b461a52b064e"
           (reference "U1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C_Small") (at 125.73 102.235 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid e0c0ec31-747b-41f1-877e-9e20b5ef27ba)
-    (property "Reference" "C5" (at 128.27 100.9713 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "4u7" (at 128.27 103.5113 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 125.73 102.235 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 125.73 102.235 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 91743ad4-30d9-49cd-95f0-99c396e43220))
-    (pin "2" (uuid 3f0b1ad2-6be6-4f4b-b299-8f29cb7c7259))
-    (instances
-      (project "Arius8X-HE"
-        (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
-          (reference "C5") (unit 1)
         )
       )
     )
@@ -4328,7 +3960,7 @@
     )
     (pin "1" (uuid 601919d1-be2c-43b9-8288-1569779e7030))
     (instances
-      (project "Arius8X-HE"
+      (project "Arius80-HE"
         (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
           (reference "#PWR0391") (unit 1)
         )
@@ -4353,7 +3985,7 @@
     )
     (pin "1" (uuid bc820b4f-9831-4497-90b1-9d749ab358f1))
     (instances
-      (project "Arius8X-HE"
+      (project "Arius80-HE"
         (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
           (reference "#PWR0390") (unit 1)
         )
@@ -4361,49 +3993,24 @@
     )
   )
 
-  (symbol (lib_id "power:VDDA") (at 172.085 99.06 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid ea56695b-9356-4dd8-8559-27ec0611d747)
-    (property "Reference" "#PWR05" (at 172.085 102.87 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VDDA" (at 172.085 94.615 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 172.085 99.06 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 172.085 99.06 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 1c88808c-89a6-4e4b-aaa7-b65da43808ac))
-    (instances
-      (project "Arius8X-HE"
-        (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
-          (reference "#PWR05") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+3V3") (at 87.63 57.785 270) (mirror x) (unit 1)
+  (symbol (lib_id "power:+3V3") (at 89.535 69.215 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ee9268f1-deb2-483d-8a9a-bca70f2a40ed)
-    (property "Reference" "#PWR0394" (at 83.82 57.785 0)
+    (property "Reference" "#PWR0394" (at 89.535 73.025 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+3V3" (at 92.075 57.785 0)
+    (property "Value" "+3V3" (at 89.535 64.77 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 87.63 57.785 0)
+    (property "Footprint" "" (at 89.535 69.215 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 87.63 57.785 0)
+    (property "Datasheet" "" (at 89.535 69.215 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 7b784689-4b5b-4276-af08-04775d5493e6))
     (instances
-      (project "Arius8X-HE"
+      (project "Arius80-HE"
         (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
           (reference "#PWR0394") (unit 1)
         )
@@ -4433,7 +4040,7 @@
           (reference "#PWR049") (unit 1)
         )
       )
-      (project "Arius8X-HE"
+      (project "Arius80-HE"
         (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
           (reference "#PWR0395") (unit 1)
         )
@@ -4441,78 +4048,53 @@
     )
   )
 
-  (symbol (lib_id "power:+3V3") (at 125.73 99.695 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid f4911a99-6818-4ee0-a325-fa7aa041253e)
-    (property "Reference" "#PWR06" (at 125.73 103.505 0)
+  (symbol (lib_id "Device:C_Small") (at 175.26 103.505 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid f60eb09c-5602-4227-b99e-64a5ceb6ec0f)
+    (property "Reference" "C9" (at 177.8 102.2413 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "100n" (at 177.8 104.7813 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 175.26 103.505 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+3V3" (at 125.73 95.25 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 125.73 99.695 0)
+    (property "Datasheet" "~" (at 175.26 103.505 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 125.73 99.695 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 21bbb106-ca16-4e19-b983-9c1f25bd3283))
+    (pin "1" (uuid 87e67d1b-ef69-4ec3-8e80-e23565d79b61))
+    (pin "2" (uuid 31272a9d-ae88-41d6-bc12-c6ed3e454961))
     (instances
-      (project "Arius8X-HE"
+      (project "Arius80-HE"
         (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
-          (reference "#PWR06") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:C_Small") (at 207.645 102.235 0) (unit 1)
+  (symbol (lib_id "Device:C_Small") (at 155.575 103.505 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid fb5c60a8-dd7e-4d61-b315-46d1544e4022)
-    (property "Reference" "C11" (at 210.82 100.9713 0)
+    (uuid f717a2c5-89de-44a5-b81c-f20a689e8d71)
+    (property "Reference" "C7" (at 158.115 102.2413 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "1u" (at 210.82 103.5113 0)
+    (property "Value" "100n" (at 158.115 104.7813 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 207.645 102.235 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 155.575 103.505 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 207.645 102.235 0)
+    (property "Datasheet" "~" (at 155.575 103.505 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6e8b2abb-d88b-4458-ad71-230dbdf51481))
-    (pin "2" (uuid 08197566-a689-4773-84ec-a75169f6b23f))
+    (pin "1" (uuid ab488932-df36-4105-a651-816096f8c3b8))
+    (pin "2" (uuid ed369f0e-217c-44da-b481-7beda2281de0))
     (instances
-      (project "Arius8X-HE"
+      (project "Arius80-HE"
         (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
-          (reference "C11") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R_Small") (at 217.17 102.235 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid ff776087-26bf-40da-bd62-e0a3ff241d9f)
-    (property "Reference" "R98" (at 219.71 100.965 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "1k8" (at 219.71 103.505 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 217.17 102.235 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 217.17 102.235 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid bd3f5968-62ec-4608-9fa1-be85ca440537))
-    (pin "2" (uuid 3f76fd24-449e-4c0b-a42a-e3e782fd8bbb))
-    (instances
-      (project "Arius8X-HE"
-        (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
-          (reference "R98") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -4536,7 +4118,7 @@
     (pin "1" (uuid 83e6c170-fc55-4d19-92c6-5e1073c604b0))
     (pin "2" (uuid ae49d070-6e58-4ac4-a50e-ffe02d2d5f6f))
     (instances
-      (project "Arius8X-HE"
+      (project "Arius80-HE"
         (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
           (reference "NT3") (unit 1)
         )
@@ -4567,7 +4149,7 @@
       (uuid d67bb6a7-e5d0-45e8-a916-1612bf9a5be2)
     )
     (instances
-      (project "Arius8X-HE"
+      (project "Arius80-HE"
         (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4" (page "90"))
       )
     )
@@ -4612,7 +4194,7 @@
       (uuid 88e4c4b1-6552-4c62-8c99-f600e70ac9e9)
     )
     (instances
-      (project "Arius8X-HE"
+      (project "Arius80-HE"
         (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4" (page "2"))
       )
     )
