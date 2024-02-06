@@ -1,4 +1,4 @@
-# Arius8X-HE
+# Arius80-HE
 
 ![New Project(3)](https://github.com/mhdimo/Arius8X-HE/assets/62386208/d465aaa6-fdec-478f-8eaa-1e5b231a7aa5)
 
