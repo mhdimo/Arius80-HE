@@ -277,7 +277,7 @@
     )
     (pin "1" (uuid 75c9f41d-39f6-4a75-a805-47772ad5dc75))
     (instances
-      (project "Arius8X-HE"
+      (project "Arius80-HE"
         (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb/6dd744b7-cbf2-40da-9e7f-f9b468d5d281"
           (reference "#PWR0224") (unit 1)
         )
@@ -557,7 +557,7 @@
     )
     (pin "1" (uuid fc1be057-fa9e-448f-82ae-8de52b1f58a4))
     (instances
-      (project "Arius8X-HE"
+      (project "Arius80-HE"
         (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb/6dd744b7-cbf2-40da-9e7f-f9b468d5d281"
           (reference "#PWR0223") (unit 1)
         )
@@ -837,7 +837,7 @@
     )
     (pin "1" (uuid 39f580c8-f35f-44de-81df-7194f8c8a9b0))
     (instances
-      (project "Arius8X-HE"
+      (project "Arius80-HE"
         (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb/6dd744b7-cbf2-40da-9e7f-f9b468d5d281"
           (reference "#PWR0222") (unit 1)
         )
@@ -1118,7 +1118,7 @@
     (pin "1" (uuid e15be71a-07f3-494c-9c44-898569f23c7b))
     (pin "2" (uuid 3b8b2045-32de-4c74-ac89-3a7a6511139c))
     (instances
-      (project "Arius8X-HE"
+      (project "Arius80-HE"
         (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb/cb952ddf-d5e3-40d0-99db-1606d2aec648"
           (reference "C184") (unit 1)
         )
@@ -1402,7 +1402,7 @@
     (pin "1" (uuid f438d594-5ca4-403e-a143-7cb2e02b801b))
     (pin "2" (uuid b7099ecb-f858-49af-ab27-12d69daf1dc4))
     (instances
-      (project "Arius8X-HE"
+      (project "Arius80-HE"
         (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb/cb952ddf-d5e3-40d0-99db-1606d2aec648"
           (reference "R85") (unit 1)
         )
@@ -1687,7 +1687,7 @@
     (pin "2" (uuid 493ee18d-aedb-4dad-878f-d92c51f398b5))
     (pin "3" (uuid a07abab6-4dcd-402a-bab4-144343f8a4e1))
     (instances
-      (project "Arius8X-HE"
+      (project "Arius80-HE"
         (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb/cb952ddf-d5e3-40d0-99db-1606d2aec648"
           (reference "HALL83") (unit 1)
         )
@@ -1970,7 +1970,7 @@
     )
     (pin "1" (uuid 62955421-bab6-4a73-a875-079926d9b908))
     (instances
-      (project "Arius8X-HE"
+      (project "Arius80-HE"
         (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb/6dd744b7-cbf2-40da-9e7f-f9b468d5d281"
           (reference "#PWR0225") (unit 1)
         )
@@ -2251,7 +2251,7 @@
     (pin "1" (uuid db518323-dc1a-4bcd-90ea-a9e668490185))
     (pin "2" (uuid 9d4348d8-4be2-4212-b235-ce201bd3ac0f))
     (instances
-      (project "Arius8X-HE"
+      (project "Arius80-HE"
         (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb/cb952ddf-d5e3-40d0-99db-1606d2aec648"
           (reference "C183") (unit 1)
         )
