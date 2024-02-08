@@ -1944,6 +1944,9 @@
   (junction (at 164.465 114.3) (diameter 0) (color 0 0 0 0)
     (uuid 2294c469-99c6-46c6-a185-ddfb93116b32)
   )
+  (junction (at 169.545 114.3) (diameter 0) (color 0 0 0 0)
+    (uuid 25ccb4ac-4901-4b1a-87d9-0072b9b1c975)
+  )
   (junction (at 130.175 96.52) (diameter 0) (color 0 0 0 0)
     (uuid 27742c71-1ec9-4e52-8780-55aeedb8c068)
   )
@@ -1955,6 +1958,9 @@
   )
   (junction (at 204.47 57.15) (diameter 0) (color 0 0 0 0)
     (uuid 46d05d98-8901-443a-b890-5a16c29acfa0)
+  )
+  (junction (at 172.085 114.3) (diameter 0) (color 0 0 0 0)
+    (uuid 4deba020-ff40-4f44-a1e0-16635e68eb8f)
   )
   (junction (at 149.225 101.6) (diameter 0) (color 0 0 0 0)
     (uuid 6ebd1dbc-0b88-4b7d-8d03-ac784d638996)
@@ -2242,6 +2248,10 @@
     (stroke (width 0) (type default))
     (uuid 6d8d161a-04da-45a9-8993-4cf5a9a0d9f0)
   )
+  (wire (pts (xy 169.545 114.3) (xy 172.085 114.3))
+    (stroke (width 0) (type default))
+    (uuid 70405e69-e50e-4a42-9b19-18b039537a65)
+  )
   (wire (pts (xy 81.915 124.46) (xy 149.225 124.46))
     (stroke (width 0) (type default))
     (uuid 7440608b-c922-4bb6-87ce-d01e26ba47fa)
@@ -2454,10 +2464,6 @@
   (wire (pts (xy 177.165 101.6) (xy 187.96 101.6))
     (stroke (width 0) (type default))
     (uuid e67ce712-b98f-4c99-b3d2-2cd3640d2ae1)
-  )
-  (wire (pts (xy 159.385 114.3) (xy 161.925 114.3))
-    (stroke (width 0) (type default))
-    (uuid e742081b-6da2-4ade-a9ef-affa6b86f63b)
   )
   (bus (pts (xy 143.51 24.765) (xy 145.415 24.765))
     (stroke (width 0) (type default))
@@ -2838,7 +2844,7 @@
     (property "Datasheet" "" (at 177.165 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid bc240d7a-5e0f-48d6-a4c9-d8126fce4898))
+    (pin "1" (uuid 72e93a8d-3ff2-424f-b8a4-539ee71f12a1))
     (instances
       (project "Arius80-HE"
         (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
@@ -3145,8 +3151,8 @@
     (property "Datasheet" "~" (at 187.96 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 21f18d52-4cf3-4402-97e9-6c9481e39e20))
-    (pin "2" (uuid 04f85039-0957-4b42-8eae-b1503ad0af3c))
+    (pin "1" (uuid 48d595aa-6c22-4a6d-a0a1-20f0962f09c5))
+    (pin "2" (uuid af29988c-1da2-41a2-a41c-cb3a924335ba))
     (instances
       (project "Arius80-HE"
         (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
@@ -3421,8 +3427,8 @@
     (property "Datasheet" "~" (at 177.165 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 092df467-ab76-4024-905f-359c4fdb5ba3))
-    (pin "2" (uuid 6ac3fbc0-fda9-4d8b-99a2-8c38cd8f5c2c))
+    (pin "1" (uuid 38157a7d-f8a1-47e8-a55c-b36236d5d662))
+    (pin "2" (uuid bf3e41d3-7247-4b4e-89ca-f48c611d932a))
     (instances
       (project "Arius80-HE"
         (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
@@ -3711,19 +3717,19 @@
     )
   )
 
-  (symbol (lib_id "power:+3V3") (at 159.385 114.3 0) (unit 1)
+  (symbol (lib_id "power:+3V3") (at 161.925 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ae6533a3-ce13-4ff9-9bd8-a56d60eba825)
-    (property "Reference" "#PWR018" (at 159.385 118.11 0)
+    (property "Reference" "#PWR018" (at 161.925 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+3V3" (at 159.385 109.855 0)
+    (property "Value" "+3V3" (at 161.925 109.855 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 159.385 114.3 0)
+    (property "Footprint" "" (at 161.925 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 159.385 114.3 0)
+    (property "Datasheet" "" (at 161.925 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 23f97990-f60c-45a8-bf7e-f9b475c063d0))
@@ -4098,7 +4104,7 @@
     (property "Datasheet" "" (at 187.96 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 75fc782a-392a-41da-9a86-8b96d27cd02b))
+    (pin "1" (uuid a77901f1-3867-43e3-ba1f-ee6cfe032834))
     (instances
       (project "Arius80-HE"
         (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
@@ -4173,7 +4179,7 @@
     (property "Datasheet" "" (at 172.085 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 79ffaff4-c6bb-4129-aaa0-90abd7b090d7))
+    (pin "1" (uuid 0cd29977-196f-426c-b05f-073ca2c38e94))
     (instances
       (project "Arius80-HE"
         (path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
