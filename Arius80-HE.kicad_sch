@@ -4035,7 +4035,7 @@
     (property "Value" "USB-C 2.0 Receptacle" (at 28.2194 21.3868 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12" (at 32.0294 40.4368 0)
+    (property "Footprint" "PCM_marbastlib-various:USB_C_Receptacle_HRO_TYPE-C-31-M-12" (at 32.0294 40.4368 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2205251630_Korean-Hroparts-Elec-TYPE-C-31-M-12_C165948.pdf" (at 32.0294 40.4368 0)
