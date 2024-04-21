@@ -1,6 +1,6 @@
 (fp_lib_table
   (version 7)
-  (lib (name "MoonBoard")(type "KiCad")(uri "${KIPRJMOD}/KBD8X-MKII-HE.pretty")(options "")(descr ""))
+  (lib (name "MoonBoard")(type "KiCad")(uri "${KIPRJMOD}/MoonBoard.pretty")(options "")(descr ""))
   (lib (name "KBD8X-MKII-HE")(type "KiCad")(uri "${KIPRJMOD}/KBD8X-MKII-HE.pretty")(options "")(descr ""))
   (lib (name "Arius80-HE")(type "KiCad")(uri "${KIPRJMOD}/Arius80-HE.pretty")(options "")(descr ""))
 )
