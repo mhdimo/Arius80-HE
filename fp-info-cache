@@ -1,281 +1,190 @@
-68157850233346
-PCM_marbastlib-various
-CON_FH33J-4S-0.5SH
-Hirose FH33J FFC/FPC connector, FH33J-4S-0.5SH, 4 Pins per row (https://www.hirose.com/product/series/FH33#)
-connector Hirose FH33J horizontal
-0
-6
-5
-PCM_marbastlib-various
-CON_FH33J-10S-0.5SH
-Hirose FH33J FFC/FPC connector, FH33J-10S-0.5SH, 10 Pins per row (https://www.hirose.com/product/series/FH33#)
-connector Hirose FH33J horizontal
-0
-12
-11
-PCM_marbastlib-various
-CON_FH33J-12S-0.5SH
-Hirose FH33J FFC/FPC connector, FH33J-12S-0.5SH, 12 Pins per row (https://www.hirose.com/product/series/FH33#)
-connector Hirose FH33J horizontal
-0
-14
-13
-PCM_marbastlib-various
-CON_HytePro_M411P_Plug_1x04-P2.20mm_Horizontal
-HytePro M411P magnetic connector footprint (4 pin) Link: https://www.hyte.pro/product/m411p.html
-HytePro magnetic connector
-0
-4
-4
-PCM_marbastlib-various
-CON_HytePro_M411P_Receptacle_1x04-P2.20mm_Horizontal
-HytePro M411P magnetic connector footprint (4 pin) Link: https://www.hyte.pro/product/m411p.html
-HytePro magnetic connector
-0
-4
-4
-PCM_marbastlib-various
-CON_JST_ACH_BM02B
-JST ACH series connector, BM02B-ACHSS-GAN-ETF (http://www.jst-mfg.com/product/pdf/eng/eACH.pdf), generated with kicad-footprint-generator
-connector JST ACH vertical
-0
-4
-3
-PCM_marbastlib-various
-CON_TC2030_outlined
-Tag-Connect programming header; http://www.tag-connect.com/Materials/TC2030-IDC-NL.pdf
-tag connect programming header pogo pins
-0
-6
-6
-PCM_marbastlib-various
-LED_6028R
-rear-mount SMD 6028 RGB LED
-LED RGB 6028 rear mount reverse
-0
-4
-4
-PCM_marbastlib-various
-LED_WS2812_2020
-2020 SMD adressable RGB LED with integrated controller
-LED RGB NeoPixel
-0
-4
-4
-PCM_marbastlib-various
-Molex_Pico-EZmate_78171-0002_1x02-1MP_P1.20mm_Vertical
-Molex Pico-EZmate series connector, 78171-0002 (http://www.molex.com/pdm_docs/sd/781710002_sd.pdf)
-connector Molex Pico-EZmate side entry
-0
-16
-3
-PCM_marbastlib-various
-Molex_Pico-EZmate_78171-0003_1x03-1MP_P1.20mm_Vertical
-Molex Pico-EZmate series connector, 78171-0003 (http://www.molex.com/pdm_docs/sd/781710003_sd.pdf)
-connector Molex Pico-EZmate side entry
-0
-17
-4
-PCM_marbastlib-various
-Molex_Pico-EZmate_78171-0004_1x04-1MP_P1.20mm_Vertical
-Molex Pico-EZmate series connector, 78171-0004 (http://www.molex.com/pdm_docs/sd/781710004_sd.pdf)
-connector Molex Pico-EZmate side entry
-0
-18
-5
-PCM_marbastlib-various
-Molex_Pico-EZmate_78171-0005_1x05-1MP_P1.20mm_Vertical
-Molex Pico-EZmate series connector, 78171-0005 (http://www.molex.com/pdm_docs/sd/781710005_sd.pdf)
-connector Molex Pico-EZmate side entry
-0
-19
-6
-PCM_marbastlib-various
-Molex_Pico-EZmate_78171-5006_1x06-1MP_P1.20mm_Vertical
-Molex Pico-EZmate series connector, 78171-5006 (http://www.molex.com/pdm_docs/sd/781715006_sd.pdf)
-connector Molex Pico-EZmate side entry
-0
-20
-7
-PCM_marbastlib-various
-Molex_Pico-EZmate_PLUS_212134-0002_1x02-1MP_P1.00mm_Vertical
-Molex Pico-EZmate series connector, 212134-0002 (http://www.molex.com/pdm_docs/sd/2121340002_sd.pdf)
-connector Molex Pico-EZmate side entry
-0
-16
-3
-PCM_marbastlib-various
-Molex_Pico-EZmate_PLUS_212134-0003_1x03-1MP_P1.00mm_Vertical
-Molex Pico-EZmate series connector, 212134-0003 (http://www.molex.com/pdm_docs/sd/2121340003_sd.pdf)
-connector Molex Pico-EZmate side entry
-0
-17
-4
-PCM_marbastlib-various
-Molex_Pico-EZmate_PLUS_212134-0004_1x04-1MP_P1.00mm_Vertical
-Molex Pico-EZmate series connector, 212134-0004 (http://www.molex.com/pdm_docs/sd/2121340004_sd.pdf)
-connector Molex Pico-EZmate side entry
-0
-18
-5
-PCM_marbastlib-various
-Molex_Pico-EZmate_PLUS_212134-0005_1x05-1MP_P1.00mm_Vertical
-Molex Pico-EZmate series connector, 212134-0005 (http://www.molex.com/pdm_docs/sd/2121340005_sd.pdf)
-connector Molex Pico-EZmate side entry
-0
-19
-6
-PCM_marbastlib-various
-Molex_Pico-EZmate_PLUS_212134-0006_1x06-1MP_P1.00mm_Vertical
-Molex Pico-EZmate series connector, 212134-0006 (http://www.molex.com/pdm_docs/sd/2121340006_sd.pdf)
-connector Molex Pico-EZmate side entry
-0
-20
-7
-PCM_marbastlib-various
-QFN-60_EP_7x7_Pitch0.4mm
-QFN-60 package accroding to IS31FL3741A datasheets
+46268498360318
+Arius80-HE
+5.5_5x2.5mm
+
 
 0
-158
-61
-PCM_marbastlib-various
-ROT_Alps_EC11E-Switch
-Alps rotary encoder, EC11E/EC11N with switch, vertical shaft
-rotary encoder
-0
-7
-6
-PCM_marbastlib-various
-ROT_SKYLOONG_HS-Switch
-SKYLOONG hotswap knob module with internal switch
-
-0
-4
-4
-PCM_marbastlib-various
-SOT-23-6-routable
-SOT, 6 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py
-SOT TO_SOT_SMD
-0
-6
-6
-PCM_marbastlib-various
-SW_ESP3020
-ECE ESP3020 SMD slide switch
-slide switch smd ece
-0
-3
-3
-PCM_marbastlib-various
-SW_MSK12C02-HB
-12V 50mA SMD toggle switch, available at LCSC/JLCPCB (C431541)
-switch toggle smd 
-0
-7
-4
-PCM_marbastlib-various
-SW_SKHLLCA010
-alps SKHLLCA010 DIP pushbutton
-alps tht dip pushbutton SPST
-0
-4
-3
-PCM_marbastlib-various
-SW_SPST_SKQG_WithStem
-ALPS 5.2mm Square Low-profile Type (Surface Mount) SKQG Series, With stem, http://www.alps.com/prod/info/E/HTML/Tact/SurfaceMount/SKQG/SKQGAFE010.html
-SPST Button Switch
-0
-4
-2
-PCM_marbastlib-various
-SW_SSSS213100
-alps SKHLLCA010 DIP 1-pole, 2-position switch
-alps dip tht SPDT
-0
-3
-3
-PCM_marbastlib-various
-SW_SSSS223900
-alps SKHLLCA010 DIP 2-pole, 3-position switch
-alps tht dip DP3T
-0
-8
-8
-PCM_marbastlib-various
-SW_kailh_big_1u
-Footprint for Kailh "Big Switch Series" style switches
-
-0
-2
-2
-PCM_marbastlib-various
-SplitkbTentingPuck
-https://splitkb.com/products/tenting-puck
-split kb tenting puck mechanical mounting
-0
-5
 1
-PCM_marbastlib-various
-USB_C_Receptacle_HRO_TYPE-C-31-M-12
-USB Type-C receptacle for USB 2.0 and PD, http://www.krhro.com/uploads/soft/180320/1-1P320120243.pdf
-usb usb-c 2.0 pd
+1
+Arius80-HE
+10x5_7x2.5mm
+
+
 0
-20
-17
-PCM_marbastlib-various
-USB_C_Receptacle_HRO_TYPE-C-31-M-14
-USB Type-C receptacle for USB 2.0 and PD
-usb usb-c 2.0 pd
+1
+1
+Arius80-HE
+DFN2510
+
+
 0
-20
-17
-PCM_marbastlib-various
-mousebites_1mm
+10
+10
+Arius80-HE
+HRO-TYPE-C-31-M-12-Assembly
+
+
+0
+16
+13
+Arius80-HE
+LOGO
 
 
 0
 0
 0
-PCM_marbastlib-various
-mousebites_2.5mm
+Arius80-HE
+MOLEX_0482580002
+
+
+0
+8
+8
+Arius80-HE
+OLED Module
+
+
+0
+4
+4
+Arius80-HE
+PicoEZMate-Reinforced-Alt
+Molex Pico-EZmate series connector, 78171-0004 (http://www.molex.com/pdm_docs/sd/781710002_sd.pdf), generated with kicad-footprint-generator
+connector Molex Pico-EZmate side entry
+0
+22
+4
+Arius80-HE
+PicoEZMate-Reinforced-Lite
+Molex Pico-EZmate series connector, 78171-0004 (http://www.molex.com/pdm_docs/sd/781710002_sd.pdf), generated with kicad-footprint-generator
+connector Molex Pico-EZmate side entry
+0
+22
+4
+Arius80-HE
+RKJXT1F
+
+
+0
+10
+10
+Arius80-HE
+ROT_Alps_EC09E_Switch
+
+
+0
+5
+5
+Arius80-HE
+RollerEncoder_Panasonic_EVQWGD001
+
+
+0
+6
+6
+Arius80-HE
+SK 6812 MINI-EA
+
+
+0
+4
+4
+Arius80-HE
+SK 6812 MINI-EA-ROT
+
+
+0
+4
+4
+Arius80-HE
+SLSS49E-3 with 1.5u MX holes
+
+
+0
+3
+3
+Arius80-HE
+SLSS49E-3 with 1.25u MX holes
+
+
+0
+3
+3
+Arius80-HE
+SLSS49E-3 with 1.75u MX holes
+
+
+0
+3
+3
+Arius80-HE
+SLSS49E-3 with MX holes
+
+
+0
+3
+3
+Arius80-HE
+SOD-123FL_L2.8-W1.8-LS3.7-BI
+
+
+0
+2
+2
+Arius80-HE
+SSOP-16_L4.6-W2.6-P0.53-LS4.0-BL
+
+
+0
+16
+16
+Arius80-HE
+SWD_Connector
+
+
+0
+6
+6
+Arius80-HE
+USB-A-SMD_AF-APPLE-10.6
+
+
+0
+8
+5
+Arius80-HE
+USON-10_2.5x1.0mm_P0.5mm
+USON-10 2.5x1.0mm_ Pitch 0.5mm http://www.ti.com/lit/ds/symlink/tpd4e02b04.pdf
+USON-10 2.5x1.0mm Pitch 0.5mm
+0
+10
+10
+Arius80-HE
+Unified-Daughterboard-Logo.pretty
 
 
 0
 0
 0
-PCM_marbastlib-various
-mousebites_2mm
+Arius80-HE
+Unified-Daughterboard-Name.pretty
+
+
+0
+9
+1
+Arius80-HE
+UnifiedLogo
 
 
 0
 0
 0
-PCM_marbastlib-various
-mousebites_5p5mm_easysnap
-Mousebites designed to break easier on one side than the other, with hole to apply leverage
-mousebites hex 
-0
-0
-0
-PCM_marbastlib-various
-nRF52840_holyiot_18010
-Module containing a nRF52840 and most passives and antenna
-holyiot 18010 bluetooth low energy 
-0
-55
-55
-PCM_marbastlib-various
-nRF52840_holyiot_18010_HS_simple
-Module containing a nRF52840 and most passives and antenna, with only hand solderable pads
-holyiot 18010 bluetooth low energy 
-0
-37
-37
-PCM_marbastlib-various
-nRF52840_moko_mk08
+Arius80-HE
+oshw
 
 
 0
-60
-58
+0
+0
