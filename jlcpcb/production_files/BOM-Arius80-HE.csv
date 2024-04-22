@@ -26,12 +26,3 @@ SW_SPST,SW1,SW_SPST_TL3342,C318884
 1uF,C10,C_0402_1005Metric,C52923
 AMS1117-3.3,U10,SOT-223-3_TabPin2,C6186
 2N7002,"Q1,Q2",SOT-23,C8545
-Conn_02x03_Odd_Even,SWD1,PinHeader_2x03_P2.54mm_Vertical,
-MountingHole,H3,MountingHole_2.2mm_M2_Pad,
-MountingHole,H7,MountingHole_2.2mm_M2_Pad,
-MountingHole,H4,MountingHole_2.2mm_M2_Pad,
-MountingHole,H1,MountingHole_2.2mm_M2_Pad,
-MountingHole,H6,MountingHole_2.2mm_M2_Pad,
-MountingHole,H2,MountingHole_2.2mm_M2_Pad,
-MountingHole,H5,MountingHole_2.2mm_M2_Pad,
-MountingHole,H8,MountingHole_2.2mm_M2_Pad,
