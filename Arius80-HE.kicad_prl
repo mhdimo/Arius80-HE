@@ -38,6 +38,7 @@
       9,
       10,
       11,
+      12,
       13,
       15,
       16,
@@ -70,31 +71,6 @@
     "version": 3
   },
   "project": {
-    "files": [
-      {
-        "name": "KBD8X-MKII-HE.kicad_sch",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": -9,
-          "pos_y": -9,
-          "size_x": 1938,
-          "size_y": 1048
-        }
-      },
-      {
-        "name": "KBD8X-MKII-HE.kicad_pcb",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": -9,
-          "pos_y": -9,
-          "size_x": 1938,
-          "size_y": 1048
-        }
-      }
-    ]
+    "files": []
   }
 }
