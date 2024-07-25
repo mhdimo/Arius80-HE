@@ -3444,6 +3444,7 @@
 	)
 	(label "KEYS_2_15"
 		(at 429.26 173.99 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4290,6 +4291,7 @@
 	)
 	(label "KEYS_2_16"
 		(at 454.66 187.96 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

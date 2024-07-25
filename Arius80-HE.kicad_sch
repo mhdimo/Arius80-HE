@@ -6312,7 +6312,7 @@
 	)
 	(rectangle
 		(start 14.605 17.145)
-		(end 74.295 90.17)
+		(end 74.295 91.44)
 		(stroke
 			(width 0)
 			(type default)
@@ -6348,7 +6348,7 @@
 	)
 	(rectangle
 		(start 15.875 133.35)
-		(end 67.31 168.91)
+		(end 67.31 179.07)
 		(stroke
 			(width 0)
 			(type default)
@@ -10048,6 +10048,70 @@
 			(project "Arius80-HE"
 				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 39.37 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad4a4fd5-539b-4d93-8d30-86de134dc003")
+		(property "Reference" "H9"
+			(at 42.545 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 42.545 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
+			(at 39.37 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 39.37 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 39.37 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Arius80-HE"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(reference "H9")
 					(unit 1)
 				)
 			)
