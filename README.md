@@ -1,9 +1,9 @@
+DO NOT ORDER UNLESS I HAVE DONE A RELEASE
+<!---![arius cover](https://github.com/mhdimo/Arius80-HE/assets/62386208/6cb63d59-2402-4a77-848f-9eb1aef7e06e)
 
-![arius cover](https://github.com/mhdimo/Arius80-HE/assets/62386208/6cb63d59-2402-4a77-848f-9eb1aef7e06e)
 
 
 
-<!---
 ![New Project(3)](https://github.com/mhdimo/Arius8X-HE/assets/62386208/d465aaa6-fdec-478f-8eaa-1e5b231a7aa5)
 (not an actual official design)
 
