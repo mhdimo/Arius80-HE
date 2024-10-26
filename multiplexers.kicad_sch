@@ -4060,6 +4060,17 @@
 		)
 		(uuid "8ca1629d-7417-41a5-8c85-d2ecc132a906")
 	)
+	(label "KEYS_1_13"
+		(at 242.57 43.815 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8efe3c70-5bb7-48b5-aeae-c6253892ccde")
+	)
 	(label "KEYS_1_7"
 		(at 57.15 130.81 0)
 		(fields_autoplaced yes)
