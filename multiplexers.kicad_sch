@@ -4038,6 +4038,17 @@
 		)
 		(uuid "84fbafa3-dc58-494d-bbfb-eb51978f971a")
 	)
+	(label "KEYS_5_7"
+		(at 242.57 76.835 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8890abdd-e8e6-4c59-8b8f-76ca42425bc9")
+	)
 	(label "KEYS_3_6"
 		(at 57.15 146.05 0)
 		(fields_autoplaced yes)
