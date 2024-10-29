@@ -4456,6 +4456,17 @@
 		)
 		(uuid "d4612a1d-c221-4a40-92df-837e30639058")
 	)
+	(label "KEYS_1_13"
+		(at 242.57 43.815 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d8f64e06-5fcf-4282-b71f-25377cf22466")
+	)
 	(label "S3"
 		(at 147.32 62.23 0)
 		(fields_autoplaced yes)
