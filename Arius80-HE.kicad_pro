@@ -3,14 +3,17 @@
     "3dviewports": [],
     "design_settings": {
       "defaults": {
-        "board_outline_line_width": 0.09999999999999999,
-        "copper_line_width": 0.19999999999999998,
+        "apply_defaults_to_fp_fields": false,
+        "apply_defaults_to_fp_shapes": false,
+        "apply_defaults_to_fp_text": false,
+        "board_outline_line_width": 0.1,
+        "copper_line_width": 0.2,
         "copper_text_italic": false,
         "copper_text_size_h": 1.5,
         "copper_text_size_v": 1.5,
         "copper_text_thickness": 0.3,
         "copper_text_upright": false,
-        "courtyard_line_width": 0.049999999999999996,
+        "courtyard_line_width": 0.05,
         "dimension_precision": 4,
         "dimension_units": 3,
         "dimensions": {
@@ -21,7 +24,7 @@
           "text_position": 0,
           "units_format": 1
         },
-        "fab_line_width": 0.09999999999999999,
+        "fab_line_width": 0.1,
         "fab_text_italic": false,
         "fab_text_size_h": 1.0,
         "fab_text_size_v": 1.0,
@@ -45,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.3
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -97,9 +100,11 @@
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
+        "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
+        "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
@@ -136,19 +141,19 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.19999999999999998,
+        "min_clearance": 0.2,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
-        "min_hole_clearance": 0.39999999999999997,
+        "min_hole_clearance": 0.4,
         "min_hole_to_hole": 0.5,
-        "min_microvia_diameter": 0.19999999999999998,
-        "min_microvia_drill": 0.09999999999999999,
+        "min_microvia_diameter": 0.2,
+        "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.15,
         "min_text_height": 1.016,
-        "min_text_thickness": 0.15239999999999998,
+        "min_text_thickness": 0.1524,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.19999999999999998,
+        "min_track_width": 0.2,
         "min_via_annular_width": 0.13,
         "min_via_diameter": 0.5,
         "solder_mask_clearance": 0.0,
@@ -158,9 +163,6 @@
       },
       "teardrop_options": [
         {
-          "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 5,
-          "td_on_pad_in_zone": false,
           "td_onpadsmd": true,
           "td_onroundshapesonly": false,
           "td_ontrackend": false,
@@ -169,29 +171,35 @@
       ],
       "teardrop_parameters": [
         {
+          "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
           "td_maxlen": 1.0,
+          "td_on_pad_in_zone": false,
           "td_target_name": "td_round_shape",
           "td_width_to_size_filter_ratio": 0.9
         },
         {
+          "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
           "td_maxlen": 1.0,
+          "td_on_pad_in_zone": false,
           "td_target_name": "td_rect_shape",
           "td_width_to_size_filter_ratio": 0.9
         },
         {
+          "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
           "td_maxlen": 1.0,
+          "td_on_pad_in_zone": false,
           "td_target_name": "td_track_end",
           "td_width_to_size_filter_ratio": 0.9
         }
@@ -208,6 +216,32 @@
         1.0,
         1.35
       ],
+      "tuning_pattern_settings": {
+        "diff_pair_defaults": {
+          "corner_radius_percentage": 80,
+          "corner_style": 1,
+          "max_amplitude": 1.0,
+          "min_amplitude": 0.2,
+          "single_sided": false,
+          "spacing": 1.0
+        },
+        "diff_pair_skew_defaults": {
+          "corner_radius_percentage": 80,
+          "corner_style": 1,
+          "max_amplitude": 1.0,
+          "min_amplitude": 0.2,
+          "single_sided": false,
+          "spacing": 0.6
+        },
+        "single_track_defaults": {
+          "corner_radius_percentage": 80,
+          "corner_style": 1,
+          "max_amplitude": 1.0,
+          "min_amplitude": 0.2,
+          "single_sided": false,
+          "spacing": 0.6
+        }
+      },
       "via_dimensions": [
         {
           "diameter": 0.0,
@@ -227,6 +261,13 @@
         }
       ],
       "zones_allow_external_fillets": true
+    },
+    "ipc2581": {
+      "dist": "",
+      "distpn": "",
+      "internal_id": "",
+      "mfg": "",
+      "mpn": ""
     },
     "layer_presets": [],
     "viewports": []
@@ -491,14 +532,76 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
+      "plot": "",
+      "pos_files": "",
       "specctra_dsn": "",
       "step": "Arius80-HE.step",
+      "svg": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
   },
   "schematic": {
     "annotate_start_num": 0,
+    "bom_export_filename": "",
+    "bom_fmt_presets": [],
+    "bom_fmt_settings": {
+      "field_delimiter": ",",
+      "keep_line_breaks": false,
+      "keep_tabs": false,
+      "name": "CSV",
+      "ref_delimiter": ",",
+      "ref_range_delimiter": "",
+      "string_delimiter": "\""
+    },
+    "bom_presets": [],
+    "bom_settings": {
+      "exclude_dnp": false,
+      "fields_ordered": [
+        {
+          "group_by": false,
+          "label": "Reference",
+          "name": "Reference",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Value",
+          "name": "Value",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Datasheet",
+          "name": "Datasheet",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Footprint",
+          "name": "Footprint",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "DNP",
+          "name": "${DNP}",
+          "show": true
+        }
+      ],
+      "filter_string": "",
+      "group_symbols": true,
+      "name": "Grouped By Value",
+      "sort_asc": true,
+      "sort_field": "位号"
+    },
+    "connection_grid_size": 50.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
       "dashed_lines_gap_length_ratio": 3.0,
@@ -512,6 +615,11 @@
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
       "label_size_ratio": 0.375,
+      "operating_point_overlay_i_precision": 3,
+      "operating_point_overlay_i_range": "~A",
+      "operating_point_overlay_v_precision": 3,
+      "operating_point_overlay_v_range": "~V",
+      "overbar_offset_ratio": 1.23,
       "pin_symbol_size": 25.0,
       "text_offset_ratio": 0.15
     },
@@ -527,6 +635,7 @@
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
     "spice_save_all_currents": false,
+    "spice_save_all_dissipations": false,
     "spice_save_all_voltages": false,
     "subpart_first_id": 65,
     "subpart_id_separator": 0
@@ -534,7 +643,7 @@
   "sheets": [
     [
       "bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4",
-      ""
+      "根目录"
     ],
     [
       "fb2aaba3-3842-4616-b174-96769827734e",
@@ -610,287 +719,291 @@
     ],
     [
       "a36f6f8e-a68d-42b3-9725-69f60cfc0f26",
-      "sensor16"
-    ],
-    [
-      "17269bcc-8d51-48cd-a56a-076112f91a34",
       "sensor17"
     ],
     [
-      "d91af2c0-10f5-4d94-8ea9-05777ede8b00",
+      "17269bcc-8d51-48cd-a56a-076112f91a34",
       "sensor18"
     ],
     [
-      "f81e00d4-7d70-4333-94fa-3089ccd98862",
+      "d91af2c0-10f5-4d94-8ea9-05777ede8b00",
       "sensor19"
     ],
     [
-      "5f0367be-57ac-486f-98ba-19046fee8f1d",
+      "f81e00d4-7d70-4333-94fa-3089ccd98862",
       "sensor20"
     ],
     [
-      "cacf0bb5-4969-4d2e-9289-31b00a9509eb",
+      "5f0367be-57ac-486f-98ba-19046fee8f1d",
       "sensor21"
     ],
     [
-      "9f8c273c-b3e8-46e5-a59a-c0769845a5e8",
+      "cacf0bb5-4969-4d2e-9289-31b00a9509eb",
       "sensor22"
     ],
     [
-      "b93c910e-3f3e-4499-8fa4-c7bde2827a57",
+      "9f8c273c-b3e8-46e5-a59a-c0769845a5e8",
       "sensor23"
     ],
     [
-      "b12a0bae-f900-4d0f-856b-def9afcaa110",
+      "b93c910e-3f3e-4499-8fa4-c7bde2827a57",
       "sensor24"
     ],
     [
-      "aa92d182-fdef-4290-bb1b-5d875c2b8cab",
+      "b12a0bae-f900-4d0f-856b-def9afcaa110",
       "sensor25"
     ],
     [
-      "45eabb06-f931-4747-9b2c-fb1e00b15029",
+      "aa92d182-fdef-4290-bb1b-5d875c2b8cab",
       "sensor26"
     ],
     [
-      "4e1e15a7-9609-4937-af56-dd4f00eec570",
+      "45eabb06-f931-4747-9b2c-fb1e00b15029",
       "sensor27"
     ],
     [
-      "8952a1bd-2f5e-46f1-8451-eb7147ee4dc1",
+      "4e1e15a7-9609-4937-af56-dd4f00eec570",
       "sensor28"
     ],
     [
-      "a9ac939a-5aab-4340-94bc-8d68da6ff406",
+      "8952a1bd-2f5e-46f1-8451-eb7147ee4dc1",
       "sensor29"
     ],
     [
-      "ed499842-fbd4-464c-9756-36a577ea88fc",
+      "a9ac939a-5aab-4340-94bc-8d68da6ff406",
       "sensor30"
     ],
     [
-      "37e3dd95-3069-47d2-a4b7-116b5400f098",
+      "ed499842-fbd4-464c-9756-36a577ea88fc",
       "sensor31"
     ],
     [
-      "cc198abb-7270-4530-8658-6b1c80e3874c",
+      "37e3dd95-3069-47d2-a4b7-116b5400f098",
       "sensor32"
     ],
     [
-      "4622136c-49e7-45e1-a584-769010d2f580",
+      "cc198abb-7270-4530-8658-6b1c80e3874c",
       "sensor33"
     ],
     [
-      "4c2cf7b7-6ee0-4a5e-afb8-c57cde13d8a8",
+      "4622136c-49e7-45e1-a584-769010d2f580",
       "sensor34"
     ],
     [
-      "dcd38e72-116c-44b9-ac2e-d3b0b0eb966a",
+      "4c2cf7b7-6ee0-4a5e-afb8-c57cde13d8a8",
       "sensor35"
     ],
     [
-      "7e22a175-e307-41b9-a2ba-8e37f3020735",
+      "dcd38e72-116c-44b9-ac2e-d3b0b0eb966a",
       "sensor36"
     ],
     [
-      "48d40bd3-e72a-4763-99dd-04cb7a582c30",
+      "7e22a175-e307-41b9-a2ba-8e37f3020735",
       "sensor37"
     ],
     [
-      "fa5c8ddd-0517-4b4d-9595-c95509b36605",
+      "48d40bd3-e72a-4763-99dd-04cb7a582c30",
       "sensor38"
     ],
     [
-      "00f18677-267d-43e8-8bb9-14c5117917ec",
+      "fa5c8ddd-0517-4b4d-9595-c95509b36605",
       "sensor39"
     ],
     [
-      "440da7c1-070e-462a-b9c4-857498b1ff6f",
+      "00f18677-267d-43e8-8bb9-14c5117917ec",
       "sensor40"
     ],
     [
-      "aa2e65a3-2246-43f0-aa76-ad4101f21a3c",
+      "440da7c1-070e-462a-b9c4-857498b1ff6f",
       "sensor41"
     ],
     [
-      "56515c36-1747-49d3-aad4-96efa458793b",
+      "aa2e65a3-2246-43f0-aa76-ad4101f21a3c",
       "sensor42"
     ],
     [
-      "580c325b-fd97-4b91-90a8-1963284f795a",
+      "56515c36-1747-49d3-aad4-96efa458793b",
       "sensor43"
     ],
     [
-      "6395af60-b9cc-4e1d-929d-cf6003e3dd5d",
+      "580c325b-fd97-4b91-90a8-1963284f795a",
       "sensor44"
     ],
     [
-      "6dd744b7-cbf2-40da-9e7f-f9b468d5d281",
+      "6395af60-b9cc-4e1d-929d-cf6003e3dd5d",
       "sensor45"
     ],
     [
-      "3d344642-6b5b-4c88-af4a-bedd7b82f191",
+      "6dd744b7-cbf2-40da-9e7f-f9b468d5d281",
       "sensor46"
     ],
     [
-      "4d4e11cb-32fa-4ab9-8cb3-e3da072fdbd9",
+      "3d344642-6b5b-4c88-af4a-bedd7b82f191",
       "sensor47"
     ],
     [
-      "5c022414-4b60-4dd1-9385-85a21512f9c6",
+      "4d4e11cb-32fa-4ab9-8cb3-e3da072fdbd9",
       "sensor48"
     ],
     [
-      "7890f956-2b2c-478f-b443-e3686fe8ef47",
+      "5c022414-4b60-4dd1-9385-85a21512f9c6",
       "sensor49"
     ],
     [
-      "675f9ba9-82b3-4c0d-b9a7-779337d07061",
+      "7890f956-2b2c-478f-b443-e3686fe8ef47",
       "sensor50"
     ],
     [
-      "7b6c670e-d94e-4a6d-96fa-19e58021f13e",
+      "675f9ba9-82b3-4c0d-b9a7-779337d07061",
       "sensor51"
     ],
     [
-      "0a6aa956-a350-43f7-98b6-ce49db764abe",
+      "7b6c670e-d94e-4a6d-96fa-19e58021f13e",
       "sensor52"
     ],
     [
-      "c6b0e4a2-c1e3-45db-b320-0e1fb58ab4f8",
+      "0a6aa956-a350-43f7-98b6-ce49db764abe",
       "sensor53"
     ],
     [
-      "aabb8ec8-994e-4666-9652-9c49b3fba4fa",
+      "c6b0e4a2-c1e3-45db-b320-0e1fb58ab4f8",
       "sensor54"
     ],
     [
-      "9eeb6f30-7a4a-42ce-a322-530e506bdb32",
+      "aabb8ec8-994e-4666-9652-9c49b3fba4fa",
       "sensor55"
     ],
     [
-      "5afc0124-a813-4596-9c20-525dce932316",
+      "9eeb6f30-7a4a-42ce-a322-530e506bdb32",
       "sensor56"
     ],
     [
-      "cbfab19a-6631-4bf6-ba75-fb8a4675d0d1",
+      "5afc0124-a813-4596-9c20-525dce932316",
       "sensor57"
     ],
     [
-      "4a88b0fb-9292-4d62-9f02-84c91006ce4c",
+      "cbfab19a-6631-4bf6-ba75-fb8a4675d0d1",
       "sensor58"
     ],
     [
-      "60af0827-efdc-4c5d-9804-ade8be831ff5",
+      "4a88b0fb-9292-4d62-9f02-84c91006ce4c",
       "sensor59"
     ],
     [
-      "8bb9ca19-8233-4528-9c40-7f4784606a48",
+      "60af0827-efdc-4c5d-9804-ade8be831ff5",
       "sensor60"
     ],
     [
-      "516fcc0e-542b-4827-a581-44a8a656963d",
+      "8bb9ca19-8233-4528-9c40-7f4784606a48",
       "sensor61"
     ],
     [
-      "19c37bfd-faec-4718-968b-7a0bc6baf152",
+      "516fcc0e-542b-4827-a581-44a8a656963d",
       "sensor62"
     ],
     [
-      "29f72923-779d-4c49-ac68-ecd0a43d7685",
+      "19c37bfd-faec-4718-968b-7a0bc6baf152",
       "sensor63"
     ],
     [
-      "2cfb13be-a1fc-4311-8ef0-c88857e4a222",
+      "29f72923-779d-4c49-ac68-ecd0a43d7685",
       "sensor64"
     ],
     [
-      "66b3f7b3-30f9-41b0-a16e-8445a6582305",
+      "2cfb13be-a1fc-4311-8ef0-c88857e4a222",
       "sensor65"
     ],
     [
-      "e16961ea-85a0-4825-b2b7-9a7b71379b65",
+      "66b3f7b3-30f9-41b0-a16e-8445a6582305",
       "sensor66"
     ],
     [
-      "499d9dd2-5dd0-400d-b1dd-fe364a8d0482",
+      "e16961ea-85a0-4825-b2b7-9a7b71379b65",
       "sensor67"
     ],
     [
-      "ab0eeaf8-b35d-4359-8aa3-fdc766bbb77b",
+      "499d9dd2-5dd0-400d-b1dd-fe364a8d0482",
       "sensor68"
     ],
     [
-      "77b8f0a6-e36c-4013-931f-430d65665ef5",
+      "ab0eeaf8-b35d-4359-8aa3-fdc766bbb77b",
       "sensor69"
     ],
     [
-      "2951bd26-1cb5-4254-a7c7-650fee3ce1f8",
+      "77b8f0a6-e36c-4013-931f-430d65665ef5",
       "sensor70"
     ],
     [
-      "2f5c4234-a79b-4d01-a7aa-8dca37131a3a",
+      "2951bd26-1cb5-4254-a7c7-650fee3ce1f8",
       "sensor71"
     ],
     [
-      "d5ad85ba-e661-4ac1-ad22-a42b663bf489",
+      "2f5c4234-a79b-4d01-a7aa-8dca37131a3a",
       "sensor72"
     ],
     [
-      "80a9d248-95fb-449b-b7db-e69ea0772823",
+      "d5ad85ba-e661-4ac1-ad22-a42b663bf489",
       "sensor73"
     ],
     [
-      "4144aea3-a42d-458e-a70e-f4c5d2e4f4e8",
+      "80a9d248-95fb-449b-b7db-e69ea0772823",
       "sensor74"
     ],
     [
-      "047a78bf-8518-46d6-82bf-89256281aad9",
+      "4144aea3-a42d-458e-a70e-f4c5d2e4f4e8",
       "sensor75"
     ],
     [
-      "4bc1fd19-91c2-4d86-89f3-d5f642f19d75",
+      "047a78bf-8518-46d6-82bf-89256281aad9",
       "sensor76"
     ],
     [
-      "837f3b38-0e51-4747-b94a-c3ac29fa90a5",
+      "4bc1fd19-91c2-4d86-89f3-d5f642f19d75",
       "sensor77"
     ],
     [
-      "b9308ad7-9500-4e53-8cee-a1e80688bf99",
+      "837f3b38-0e51-4747-b94a-c3ac29fa90a5",
       "sensor78"
     ],
     [
-      "5a48084a-5eff-4b80-8fc3-47987f24dd6c",
+      "b9308ad7-9500-4e53-8cee-a1e80688bf99",
       "sensor79"
     ],
     [
-      "465e1f37-cbc1-4015-805a-dc807b88bb37",
+      "5a48084a-5eff-4b80-8fc3-47987f24dd6c",
       "sensor80"
     ],
     [
-      "48a80728-5fdf-4be9-9cb0-aabae895215b",
+      "465e1f37-cbc1-4015-805a-dc807b88bb37",
       "sensor81"
     ],
     [
-      "cb952ddf-d5e3-40d0-99db-1606d2aec648",
+      "48a80728-5fdf-4be9-9cb0-aabae895215b",
       "sensor82"
     ],
     [
-      "17f9e0b9-a253-4ad6-851a-dbb1a5cfce3e",
+      "cb952ddf-d5e3-40d0-99db-1606d2aec648",
       "sensor83"
     ],
     [
-      "6f36beaa-0b99-44bf-a583-0bca784c3f6e",
+      "17f9e0b9-a253-4ad6-851a-dbb1a5cfce3e",
       "sensor84"
     ],
     [
-      "77cf540d-dfbf-43bd-9a32-96fabef850d0",
+      "6f36beaa-0b99-44bf-a583-0bca784c3f6e",
       "sensor85"
+    ],
+    [
+      "77cf540d-dfbf-43bd-9a32-96fabef850d0",
+      "sensor86"
     ],
     [
       "6349091e-acc6-402a-aa1e-51e6c0263a46",
       "reset"
+    ],
+    [
+      "88c8ce52-fdbe-4be1-bbe1-4b1b999eb754",
+      "sensor16"
     ]
   ],
   "text_variables": {}

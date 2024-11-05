@@ -15,12 +15,12 @@
       "zones": 0.6000000238418579
     },
     "selection_filter": {
-      "dimensions": true,
+      "dimensions": false,
       "footprints": true,
-      "graphics": true,
-      "keepouts": true,
-      "lockedItems": true,
-      "otherItems": true,
+      "graphics": false,
+      "keepouts": false,
+      "lockedItems": false,
+      "otherItems": false,
       "pads": true,
       "text": true,
       "tracks": true,
@@ -38,10 +38,10 @@
       9,
       10,
       11,
+      12,
       13,
       15,
       16,
-      17,
       18,
       19,
       20,
@@ -62,8 +62,14 @@
       36,
       40
     ],
-    "visible_layers": "ffcffff_ffffffff",
+    "visible_layers": "fffffff_ffffffff",
     "zone_display_mode": 0
+  },
+  "git": {
+    "repo_password": "",
+    "repo_type": "",
+    "repo_username": "",
+    "ssh_key": ""
   },
   "meta": {
     "filename": "Arius80-HE.kicad_prl",
