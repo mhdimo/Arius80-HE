@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.65,
-          "height": 0.65,
-          "width": 0.65
+          "drill": 0.0,
+          "height": 0.4,
+          "width": 1.475
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -257,6 +257,10 @@
         },
         {
           "diameter": 0.7,
+          "drill": 0.3
+        },
+        {
+          "diameter": 1.0,
           "drill": 0.3
         }
       ],
@@ -643,7 +647,7 @@
   "sheets": [
     [
       "bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4",
-      "根目录"
+      "Root"
     ],
     [
       "fb2aaba3-3842-4616-b174-96769827734e",
