@@ -18,4 +18,5 @@ _autosave-*
 fp-info-cache
 Zellia80-HE.xml
 Zellia80-HE.csv
-Zellia80-HE-backups/*
+jlcpcb/*
+bom/*
