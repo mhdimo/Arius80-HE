@@ -248,6 +248,10 @@
           "drill": 0.0
         },
         {
+          "diameter": 0.4,
+          "drill": 0.8
+        },
+        {
           "diameter": 0.5,
           "drill": 0.3
         },
@@ -496,7 +500,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Arius80-HE.kicad_pro",
+    "filename": "Zellia80-HE.kicad_pro",
     "version": 1
   },
   "net_settings": {
