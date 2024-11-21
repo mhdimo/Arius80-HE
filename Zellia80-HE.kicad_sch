@@ -6955,7 +6955,7 @@
 	)
 	(rectangle
 		(start 248.92 15.875)
-		(end 300.355 61.595)
+		(end 300.355 67.945)
 		(stroke
 			(width 0)
 			(type default)
@@ -8481,6 +8481,70 @@
 			(project "Arius80-HE"
 				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
 					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 254 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d047216-4b82-4568-954a-762b97853b09")
+		(property "Reference" "H11"
+			(at 257.175 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 257.175 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
+			(at 254 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 254 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Zellia80-HE"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(reference "H11")
 					(unit 1)
 				)
 			)
@@ -10614,7 +10678,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 272.415 53.975 0)
+		(at 254 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10623,7 +10687,7 @@
 		(fields_autoplaced yes)
 		(uuid "ad4a4fd5-539b-4d93-8d30-86de134dc003")
 		(property "Reference" "H9"
-			(at 275.59 52.705 0)
+			(at 257.175 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10632,7 +10696,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 275.59 55.245 0)
+			(at 257.175 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10641,7 +10705,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
-			(at 272.415 53.975 0)
+			(at 254 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10650,7 +10714,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 272.415 53.975 0)
+			(at 254 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10659,7 +10723,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 272.415 53.975 0)
+			(at 254 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12011,6 +12075,70 @@
 			(project "Arius80-HE"
 				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 280.67 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6edf451-5f51-4924-be0b-cbf2f9ae0749")
+		(property "Reference" "H10"
+			(at 283.845 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 283.845 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
+			(at 280.67 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 280.67 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 280.67 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Zellia80-HE"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(reference "H10")
 					(unit 1)
 				)
 			)
