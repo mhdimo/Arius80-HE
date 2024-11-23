@@ -10282,7 +10282,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 148.59 72.39 90)
+		(at 148.59 72.39 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10291,24 +10291,24 @@
 		(fields_autoplaced yes)
 		(uuid "8faaeca3-cb2e-45dd-8fce-194a029f9004")
 		(property "Reference" "D1"
-			(at 152.4 72.7074 90)
+			(at 151.13 69.5324 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "LED"
-			(at 152.4 75.2474 90)
+			(at 151.13 72.0724 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R"
+		(property "Footprint" "sanproject-keyboard-part-v6:LED-6028"
 			(at 148.59 72.39 0)
 			(effects
 				(font
