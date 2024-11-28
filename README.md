@@ -42,7 +42,7 @@ To use this PCB project, you'll need:
 
 ### License
 
-This project is licensed under the MIT License. See the [LGPL-2.1 license](LICENSE) file for details.
+This project is licensed under the LGPL-2.1 License. See the [LGPL-2.1 License](LICENSE) file for details.
 
 ### Contributors 
 Thanks to Zilin (梁子琳) Liang for the logo graphics
